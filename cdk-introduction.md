@@ -3,10 +3,14 @@
 ## CDK 정의
 
 ### AWS CDK Benefits
-. Easier cloud onboarding — AWS CDK accelerates your onboarding to AWS because there are few new things to learn. CDK enables you to use your existing skills and tools, and apply those to the task of building cloud infrastructure. It also provides high-level components that preconfigure cloud resources with proven defaults, helping you build on AWS without needing to be an expert.
-. Customisable and shareable — With AWS CDK you can design your own reusable components that meet your organisation’s security, compliance, and governance requirements. Just like with any other software library, you can easily share components around your organisation enabling you to rapidly bootstrap new projects with best practices by default.
-. Faster development process — AWS CDK gives you the expressive power of programming languages for defining infrastructure. Familiar features such as objects, loops, and conditions accelerate your development process. You can also use AWS CDK with your integrated development environment (IDE) to take advantage of existing productivity tools and testing frameworks.
-. No context switching — AWS CDK enables you to build your cloud application without leaving your IDE. You can write your runtime code and define your AWS resources with the same programming language. You can visualise your CDK application stacks and resources with the AWS Toolkit for VS Code.
+
+1) Easier cloud onboarding — AWS CDK accelerates your onboarding to AWS because there are few new things to learn. CDK enables you to use your existing skills and tools, and apply those to the task of building cloud infrastructure. It also provides high-level components that preconfigure cloud resources with proven defaults, helping you build on AWS without needing to be an expert.
+
+2) Customisable and shareable — With AWS CDK you can design your own reusable components that meet your organisation’s security, compliance, and governance requirements. Just like with any other software library, you can easily share components around your organisation enabling you to rapidly bootstrap new projects with best practices by default.
+
+3) Faster development process — AWS CDK gives you the expressive power of programming languages for defining infrastructure. Familiar features such as objects, loops, and conditions accelerate your development process. You can also use AWS CDK with your integrated development environment (IDE) to take advantage of existing productivity tools and testing frameworks.
+
+4) No context switching — AWS CDK enables you to build your cloud application without leaving your IDE. You can write your runtime code and define your AWS resources with the same programming language. You can visualise your CDK application stacks and resources with the AWS Toolkit for VS Code.
 
 ### 지원언어
 . TypeScript, JavaScript, Python, Java, Go, C#/NET
