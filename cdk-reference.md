@@ -129,6 +129,27 @@ Kinesis Data Stream을 정의하고 stream ARN을 확인하는 방법입니다. 
     s3Bucket.grantReadWrite(lambdaUpload);
 ```
 
+## Lambda (Cron Job)
+
+```java
+    const lambdaBusInfo = new lambda.Function(this, "LambdaBusInfo", {
+      runtime: lambda.Runtime.NODEJS_14_X, 
+      code: lambda.Code.fromAsset("repositories/get-businfo"), 
+      handler: "index.handler", 
+      timeout: cdk.Duration.seconds(10),
+      environment: {
+        tableName: tableName,
+      }
+    });  
+    dataTable.grantReadWriteData(lambdaBusInfo);
+
+    const rule = new events.Rule(this, 'Cron', {
+      description: "Schedule a Lambda to save arrival time of buses",
+      schedule: events.Schedule.expression('rate(1 minute)'),
+    }); 
+    rule.addTarget(new targets.LambdaFunction(lambdaBusInfo));
+```
+
 ## Policy for Rekognition
 
 create a policy statement
