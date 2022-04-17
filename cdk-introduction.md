@@ -4,6 +4,8 @@
 
 AWS CDK(Cloud Development Kit)는 프로그래밍 언어를 사용하여 클라우드 인프라를 코드로 정의하고, AWS CloudFormation을 통해 배포하는 오픈 소스 소프트웨어 개발 프레임워크입니다. Typescript, Node.JS, Python, Go를 지원하므로 인프라를 쉽게 개발할 수 있습니다. 기본적으로 CDK는 CloudFormation Template을 생성하기 위한 툴이므로, AWS에서 새로운 feature를 개발하였을때, 새로운 feature가 CloudFormation으로 개발된 후 다시 CDK 새버전이 배포될때까지 기다려야하는 문제가 있습니다. 또한, CDK for Teraform과 같이 CloudFormation이외에도 사용될 수 있도록 확장되고 있습니다. 
 
+CDK는 2018년 8월에 [AWS CDK Developer Preview](https://aws.amazon.com/ko/blogs/developer/aws-cdk-developer-preview/)에 처음 릴리즈 되었고, CDK v2는 [AWS Cloud Development Kit (AWS CDK) v2 is now generally available](https://aws.amazon.com/about-aws/whats-new/2021/12/aws-cloud-development-kit-cdk-generally-available/?nc1=h_ls)와  2021년 11월에 정식 릴리즈 되었습니다.
+
 ### AWS CDK Benefits
 
 1) Easier cloud onboarding — AWS CDK accelerates your onboarding to AWS because there are few new things to learn. CDK enables you to use your existing skills and tools, and apply those to the task of building cloud infrastructure. It also provides high-level components that preconfigure cloud resources with proven defaults, helping you build on AWS without needing to be an expert.
@@ -76,3 +78,5 @@ AWS Serverless Application Model 및 AWS CDK는 모두 AWS 인프라를 코드�
 5) [AWS Cloud Development Kit FAQ](https://aws.amazon.com/ko/cdk/faqs/)
 
 6) [[AWS Builders] AWS Cloud Development Kit을 이용한 Code 기반의 인프라 구축](https://www.youtube.com/watch?v=hOJbhfF0DYQ)
+
+7) [AWS CDK Developer Preview] https://aws.amazon.com/ko/blogs/developer/aws-cdk-developer-preview/
