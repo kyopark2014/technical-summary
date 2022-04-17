@@ -1,6 +1,7 @@
 # CDK Introduction
 
-## CDK 정의
+## CDK (Cloud Development Kit) 정의
+
 
 ### AWS CDK Benefits
 
@@ -12,7 +13,9 @@
 
 4) No context switching — AWS CDK enables you to build your cloud application without leaving your IDE. You can write your runtime code and define your AWS resources with the same programming language. You can visualise your CDK application stacks and resources with the AWS Toolkit for VS Code.
 
+
 ### 지원언어
+
 . TypeScript, JavaScript, Python, Java, Go, C#/NET
 
 ![image](https://user-images.githubusercontent.com/52392004/163694512-ee73965c-8845-41dd-ad3b-fd77f2a243e2.png) (Reference #1)
@@ -34,8 +37,31 @@
 ![image](https://user-images.githubusercontent.com/52392004/163694615-e52d00d3-fa28-47f2-ad02-c1102ca90666.png)
 
 
+## CDK for Teraform
+
+HashiCorp Configuration Language (HCL)을 CDK를 이용해 구현합니다.
+
+지원언어: TypeScript, Python, Java, C#, and Go (experimental).
+
+![image](https://user-images.githubusercontent.com/52392004/163694803-b729a60f-59b8-4a2b-83a4-0cc454418ce1.png)
+
+[설치 및 데모](https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf)
+
+
+## CDK for Kubernetes (cdk8s)
+
+cdk8s is a Cloud Native Computing Foundation Sandbox Project
+
+cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.
+
+
 
 ## Reference 
+
 1) [What is the AWS CDK?](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
 
 2) [AWS CDK Benefits](https://medium.com/@kargawal.abhishek/aws-cdk-deploy-managed-etl-using-aws-glue-job-1925098ec40f)
+
+3) [CDK for Terraform](https://www.terraform.io/cdktf)
+
+4) [CDK for Kubernetes](https://cdk8s.io/)
