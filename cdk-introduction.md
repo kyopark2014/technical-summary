@@ -74,3 +74,5 @@ AWS Serverless Application Model 및 AWS CDK는 모두 AWS 인프라를 코드�
 4) [CDK for Kubernetes](https://cdk8s.io/)
 
 5) [AWS Cloud Development Kit FAQ](https://aws.amazon.com/ko/cdk/faqs/)
+
+6) [[AWS Builders] AWS Cloud Development Kit을 이용한 Code 기반의 인프라 구축](https://www.youtube.com/watch?v=hOJbhfF0DYQ)
