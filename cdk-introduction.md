@@ -60,7 +60,7 @@ cdk8s is a Cloud Native Computing Foundation Sandbox Project
 cdk8s is an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.
 
 
-## AWS CDK와 AWS SAM은 어떤 관계 (https://aws.amazon.com/ko/cdk/faqs/)
+## [AWS CDK와 AWS SAM은 어떤 관계](https://aws.amazon.com/ko/cdk/faqs/)
 
 AWS Serverless Application Model 및 AWS CDK는 모두 AWS 인프라를 코드로 추상화하므로 클라우드 인프라를 더 쉽게 정의할 수 있습니다. AWS SAM은 서버리스 사용 사례와 아키텍처에 초점을 맞추고 있으며 인프라를 간결한 선언형 JSON/YAML 템플릿으로 정의할 수 있습니다. AWS CDK는 모든 AWS 서비스에 걸쳐 광범위한 지원을 제공하며 클라우드 인프라를 TypeScript, Python, C# 및 Java와 같은 현대적 프로그래밍 언어로 정의할 수 있습니다. AWS SAM 및 AWS CDK 모두 CloudFormation을 인프라 스택의 프로비저닝 엔진으로 활용합니다.
 
@@ -81,4 +81,4 @@ AWS Serverless Application Model 및 AWS CDK는 모두 AWS 인프라를 코드�
 
 6) [[AWS Builders] AWS Cloud Development Kit을 이용한 Code 기반의 인프라 구축](https://www.youtube.com/watch?v=hOJbhfF0DYQ)
 
-7) [AWS CDK Developer Preview] https://aws.amazon.com/ko/blogs/developer/aws-cdk-developer-preview/
+7) [AWS CDK Developer Preview](https://aws.amazon.com/ko/blogs/developer/aws-cdk-developer-preview/)
