@@ -66,3 +66,5 @@ cdk8s is an open-source software development framework for defining Kubernetes a
 3) [CDK for Terraform](https://www.terraform.io/cdktf)
 
 4) [CDK for Kubernetes](https://cdk8s.io/)
+
+5) [AWS Cloud Development Kit FAQ](https://aws.amazon.com/ko/cdk/faqs/)
