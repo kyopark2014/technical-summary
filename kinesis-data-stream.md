@@ -1,4 +1,4 @@
-# Kinesis Data Stream
+# Kinesis Data Stream 이란?
 
 ## 정의
 
