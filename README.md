@@ -10,3 +10,4 @@ CDK는 무엇인지와 장점등에 대해 설명합니다.
 
 CDK 관련 typescript reference를 정리합니다. 
 
+## [Kinesis Data Stream]
