@@ -10,4 +10,8 @@ CDK는 무엇인지와 장점등에 대해 설명합니다.
 
 CDK 관련 typescript reference를 정리합니다. 
 
-## [Kinesis Data Stream]
+## [Kinesis Data Stream](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-stream.md)
+
+Kinesis Data Stream에 대해 설명하고, Kafka와 비교합니다. 
+
+
