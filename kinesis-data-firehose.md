@@ -35,6 +35,20 @@ Enrich your data streams with machine learning (ML) models to analyze data and p
 5) Connect with 30+ fully integrated AWS services and streaming destinations such as Amazon Simple Storage Service (S3) and Amazon Redshift.
 
 
+## Cases
+
+[Batch Data Processing with AWS Kinesis Firehose and S3 | Overview](https://www.youtube.com/watch?v=DPT3swb6zgI)
+
+![image](https://user-images.githubusercontent.com/52392004/164176143-88620a53-df06-49b9-8955-dac84af6a09b.png)
+
+[How Netflix Uses Kinesis Streams to Monitor Applications and Analyze Billions of Traffic Flows](https://www.youtube.com/watch?v=8tsIqfvizpU)
+
+![image](https://user-images.githubusercontent.com/52392004/164176361-a6261ad7-d33e-44bd-8835-4eff343978a6.png)
+
+
+[Simplifying Amazon S3 analytics with Amazon Kinesis Data Firehose (Reinvent 2021)](
+
+
 ## Reference 
 
 [Amazon Kinesis Data Firehose[(https://aws.amazon.com/kinesis/data-firehose/?nc1=h_ls)
