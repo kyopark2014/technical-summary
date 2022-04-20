@@ -14,4 +14,6 @@ CDK 관련 typescript reference를 정리합니다.
 
 Kinesis Data Stream에 대해 설명하고, Kafka와 비교합니다. 
 
+## [Kinesis Data Firehose]
+
 
