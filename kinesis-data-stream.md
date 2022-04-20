@@ -2,7 +2,7 @@
 
 ## How it works
 
-Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale.
+Amazon Kinesis Data Streams is a **serverless streaming data service** that makes it easy to capture, process, and store data streams at any scale.
 
 <img width="804" alt="image" src="https://user-images.githubusercontent.com/52392004/164144874-3337a267-03fa-469b-a53e-4410e9de6469.png">
 
