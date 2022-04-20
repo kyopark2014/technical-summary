@@ -20,11 +20,14 @@ Amazon Kinesis Data Streams is a serverless streaming data service that makes it
 ![image](https://user-images.githubusercontent.com/52392004/164147360-3f405d67-f62d-42c2-bced-870fae479ac0.png)
 
 
-## KAFKA와 비교 
+## Kafka 비교 
 
 <img width="1168" alt="image" src="https://user-images.githubusercontent.com/52392004/164147507-51be8eb7-9d09-4a2e-933d-2f62254b8e14.png">
 
 <img width="1115" alt="image" src="https://user-images.githubusercontent.com/52392004/164147535-a960b91c-7b59-4b91-9269-318c6cf55123.png">
+
+PK: Partition Key
+
 
 
 ## Base structure
