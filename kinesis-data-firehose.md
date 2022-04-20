@@ -35,3 +35,8 @@ Enrich your data streams with machine learning (ML) models to analyze data and p
 5) Connect with 30+ fully integrated AWS services and streaming destinations such as Amazon Simple Storage Service (S3) and Amazon Redshift.
 
 
+## Reference 
+
+[Amazon Kinesis Data Firehose[(https://aws.amazon.com/kinesis/data-firehose/?nc1=h_ls)
+
+
