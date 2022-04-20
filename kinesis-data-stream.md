@@ -1,6 +1,6 @@
 # Kinesis Data Stream 이란?
 
-## 정의
+## How it works
 
 Amazon Kinesis Data Streams is a serverless streaming data service that makes it easy to capture, process, and store data streams at any scale.
 
@@ -13,6 +13,24 @@ Amazon Kinesis Data Streams is a serverless streaming data service that makes it
 2) Run real-time analytics: Build applications for high-frequency event data such as clickstream data, and gain access to insights in seconds, not days, using AWS Lambda or Amazon Kinesis Data Analytics.
 
 3) Power event-driven applications: Quickly pair with AWS Lambda to respond to or adjust immediate occurrences within the event-driven applications in your environment, at any scale.
+
+
+## Base structure
+
+[AWS re:Invent 2020: Top 5 best practices for data streaming with Amazon Kinesis](https://www.youtube.com/watch?v=UE34CWAhT3o)
+
+![image](https://user-images.githubusercontent.com/52392004/164177253-a4d812dc-61a3-49b5-8314-7bb58b134e4c.png)
+
+
+## 특징 : Easily stream data at any scale
+
+1) With Amazon Kinesis Data Streams, there are no servers to manage. The on-demand mode eliminates the need to provision or manage capacity required for running applications.
+
+2) Adjust your capacity to stream gigabytes per second of data with Kinesis Data Streams. Get automatic provisioning and scaling with the on-demand mode.
+
+3) Pay only for what you use with Kinesis Data Streams, starting as low as $0.015 per hour. With the on-demand mode, you don't need to worry about over-provisioning.
+
+4) Use built-in integrations with other AWS services to create analytics, serverless, and application integration solutions on AWS quickly.
 
 
 ## Benefits of Stream storage
@@ -31,12 +49,6 @@ PK: Partition Key
 
 
 
-
-## Base structure
-
-[AWS re:Invent 2020: Top 5 best practices for data streaming with Amazon Kinesis](https://www.youtube.com/watch?v=UE34CWAhT3o)
-
-![image](https://user-images.githubusercontent.com/52392004/164177253-a4d812dc-61a3-49b5-8314-7bb58b134e4c.png)
 
 
 ## Cases
