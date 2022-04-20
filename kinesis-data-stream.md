@@ -24,9 +24,11 @@ Amazon Kinesis Data Streams is a serverless streaming data service that makes it
 
 <img width="1168" alt="image" src="https://user-images.githubusercontent.com/52392004/164147507-51be8eb7-9d09-4a2e-933d-2f62254b8e14.png">
 
+PK: Partition Key
+
 <img width="1115" alt="image" src="https://user-images.githubusercontent.com/52392004/164147535-a960b91c-7b59-4b91-9269-318c6cf55123.png">
 
-PK: Partition Key
+
 
 
 
