@@ -29,14 +29,12 @@ Amazon Kinesis Data Streams is a serverless streaming data service that makes it
 
 ## Base structure
 
+[AWS re:Invent 2020: Top 5 best practices for data streaming with Amazon Kinesis](https://www.youtube.com/watch?v=UE34CWAhT3o)
+
 ![image](https://user-images.githubusercontent.com/52392004/164177253-a4d812dc-61a3-49b5-8314-7bb58b134e4c.png)
 
 
 ## Cases
-
-[AWS re:Invent 2020: Top 5 best practices for data streaming with Amazon Kinesis](https://www.youtube.com/watch?v=UE34CWAhT3o)
-
-![image](https://user-images.githubusercontent.com/52392004/164177368-70f6daf1-3ebd-45c1-a3d6-c54944568c25.png)
 
 
 당근마켓: [DynamoDB 데이터 변경 이벤트 파이프라인 구축하기](https://medium.com/daangn/dynamodb-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B3%80%EA%B2%BD-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-feat-kinesis-1733db06066)
