@@ -55,4 +55,4 @@ Amazon Kinesis Data Streams is a serverless streaming data service that makes it
 
 [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams/?nc1=h_ls)
 
-[Amazon Kinesis Data Streams와 MSK를 비교해 보기](Amazon Kinesis Data Streams와 MSK를 비교해 보기)
+[Amazon Kinesis Data Streams와 MSK를 비교해 보기](https://www.youtube.com/watch?v=9y-aCX5O3Ms)
