@@ -21,6 +21,22 @@ Visibility timeout은 메시지를 받는 시간 (length of time that a message 
 
 ![image](https://user-images.githubusercontent.com/52392004/165202908-c5418eaf-a86f-4ef9-855a-5174b73367e5.png)
 
+
+### Dead-letter queues
+
+If a message can't be consumed successfully, you can send it to a dead-letter queue (DLQ). Dead-letter queues let you isolate problematic messages to determine why they are failing.
+
+When you designate a queue to be a source queue, a DLQ is not created automatically. You must first create a queue to designate as the DLQ. The DLQ queue type (standard or FIFO) must match the source queues. You can associate the same DLQ with more than one source queue.
+
+The Maximum receives value determines when a message will be sent to the DLQ. If the ReceiveCount for a message exceeds the maximum receive count for the queue, Amazon SQS moves the message to the associated DLQ (with its original message ID).
+
+You must use the same AWS account to create the DLQ and the source queues that send messages to the DLQ. Also, the DLQ must reside in the same region as the source queues that use the DLQ.
+
+
+![image](https://user-images.githubusercontent.com/52392004/165347919-97834736-b8d2-4885-a996-41b90580debf.png)
+
+
+
 ## Reference 
 
 [Amazon SQS 제한 시간 초과](https://docs.aws.amazon.com/ko_kr/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html)
