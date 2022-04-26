@@ -17,3 +17,8 @@ Kinesis Data Stream에 대해 설명하고, Kafka와 비교합니다.
 ## [Kinesis Data Firehose](https://github.com/kyopark2014/technical-summary/blob/main/kinesis-data-firehose.md)
 
 Kinesis Data Firehose의 주요 기능에 대해 설명합니다.
+
+
+## [SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)
+
+Amazon SQS에 사양에 대해 설명합니다. 
