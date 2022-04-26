@@ -1,19 +1,17 @@
 # SQS (Simple Queue Service)
 
 
-### Retention Period
+### Retention Period: up to 14 days
 
 The message retention period is the amount of time that Amazon SQS retains a message that does not get deleted. Amazon SQS automatically deletes messages that have been in a queue for more than the maximum message retention period. The default retention period is 4 days. The retention period has a range of 60 seconds to **1,209,600 seconds (14 days)**.
 
-The expiration of a message is always based on its original enqueue timestamp. When a message is moved to a dead-letter queue, the enqueue timestamp remains unchanged. For example, if a message spends 1 day in the original queue before being moved to a dead-letter queue, and the retention period of the dead-letter queue is set to 4 days, the message is deleted from the dead-letter queue after 3 days. For this reason, we recommend that you always set the retention period of a dead-letter queue to be longer than the retention period of the original queue.
 
-
-### Message Size
+### Message Size: less than 256KB
 
 You can set the maximum message size for your queue. The smallest supported message size is 1 byte (1 character). The largest size is 262,144 bytes (256 KB). To send messages larger than **256 KB**, you can use the Amazon SQS Extended Client Library for Java (https://github.com/awslabs/amazon-sqs-java-extended-client-lib). This library allows you to send an Amazon SQS message that contains a reference to a message payload in Amazon S3. The maximum payload size is 2 GB.
 
 
-### How large can Amazon SQS message queues be?
+### How large can Amazon SQS message queues be? 12,000(standard), 20,000(FIFO)
 
 A single Amazon SQS message queue can contain an unlimited number of messages. However, there is a quota of **120,000** for the number of inflight messages for a standard queue and **20,000** for a FIFO queue. Messages are inflight after they have been received from the queue by a consuming component, but have not yet been deleted from the queue.
 
