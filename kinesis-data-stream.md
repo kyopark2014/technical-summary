@@ -22,11 +22,6 @@ Amazon Kinesis Data Streams is a **serverless streaming data service** that make
 ![image](https://user-images.githubusercontent.com/52392004/164177253-a4d812dc-61a3-49b5-8314-7bb58b134e4c.png)
 
 
-pk: b8e0745459d9a885f1b30541e28e0e6c
-
-kinesisResponse: { 
-"ShardId": "shardId-000000000000", "SequenceNumber": "49628968760419381815775185092326431149216009853023027202" } 
-
 ## 특징 : Easily stream data at any scale
 
 1) With Amazon Kinesis Data Streams, there are no servers to manage. The on-demand mode eliminates the need to provision or manage capacity required for running applications.
@@ -41,6 +36,13 @@ kinesisResponse: {
 ## Benefits of Stream storage
 
 ![image](https://user-images.githubusercontent.com/52392004/164147360-3f405d67-f62d-42c2-bced-870fae479ac0.png)
+
+
+pk: b8e0745459d9a885f1b30541e28e0e6c
+
+kinesisResponse: { 
+"ShardId": "shardId-000000000000", "SequenceNumber": "49628968760419381815775185092326431149216009853023027202" } 
+
 
 
 ## Kafka 비교 
