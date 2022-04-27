@@ -6,6 +6,11 @@ Amazon Kinesis Data Streams is a **serverless streaming data service** that make
 
 <img width="804" alt="image" src="https://user-images.githubusercontent.com/52392004/164144874-3337a267-03fa-469b-a53e-4410e9de6469.png">
 
+pk: b8e0745459d9a885f1b30541e28e0e6c
+
+kinesisResponse: { 
+"ShardId": "shardId-000000000000", "SequenceNumber": "49628968760419381815775185092326431149216009853023027202" } 
+
 ## 사용 케이스 
 
 1) Steam log and event data: Ingest and collect terabytes of data per day from application and service logs, clickstream data, sensor data, and in-app user events to power live dashboards, generate metrics, and deliver data into data lakes.
