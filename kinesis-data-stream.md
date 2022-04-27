@@ -48,21 +48,24 @@ Amazon Kinesis Data Streams is a **serverless streaming data service** that make
 
 
 
-pk: b8e0745459d9a885f1b30541e28e0e6c
-
-kinesisResponse: { 
-"ShardId": "shardId-000000000000", "SequenceNumber": "49628968760419381815775185092326431149216009853023027202" } 
 
 
 
 ## Kafka 비교 
 
-<img width="1168" alt="image" src="https://user-images.githubusercontent.com/52392004/164147507-51be8eb7-9d09-4a2e-933d-2f62254b8e14.png">
+<img width="377" alt="image" src="https://user-images.githubusercontent.com/52392004/165637167-b2175d68-89de-44c7-809f-fa7534494dd8.png">
 
-PK: Partition Key
+<img width="418" alt="image" src="https://user-images.githubusercontent.com/52392004/165637638-a287e1d5-b835-47d3-82e5-a92bb1125ac5.png">
 
-<img width="1115" alt="image" src="https://user-images.githubusercontent.com/52392004/164147535-a960b91c-7b59-4b91-9269-318c6cf55123.png">
+PK: Partition Key 예) b8e0745459d9a885f1b30541e28e0e6c
 
+[Kinesis Data Stream에 입력한 결과의 예
+
+```java
+kinesisResponse: { 
+"ShardId": "shardId-000000000000", "SequenceNumber": "49628968760419381815775185092326431149216009853023027202" 
+} 
+```
 
 
 
