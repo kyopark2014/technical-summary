@@ -67,6 +67,17 @@ PK: Partition Key
 ![image](https://user-images.githubusercontent.com/52392004/164145865-013d9270-f32f-4150-8825-086f575ee2e2.png)
 
 
+## Capacity
+
+### Write capacity (Maximum)
+
+200 MiB/second, 200,000 records/second
+
+### Read capacity (Maximum)
+
+400 MiB/second
+
+
 
 ## Reference 
 
