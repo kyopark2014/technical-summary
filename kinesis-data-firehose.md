@@ -2,9 +2,13 @@
 
 ## How it works 
 
-Amazon Kinesis Data Firehose is an extract, transform, and load (ETL) service that reliably captures, transforms, and delivers streaming data to data lakes, data stores, and analytics services.
+Amazon Kinesis Data Firehose is an **extract, transform, and load (ETL) service** that reliably captures, transforms, and delivers streaming data to data lakes, data stores, and analytics services.
 
 ![image](https://user-images.githubusercontent.com/52392004/164175010-b8aa82e4-6fbc-42a2-992b-a18348456a3b.png)
+
+Kinesis Data Firehose는 데이터를 쉽게 변환할 수 있습니다.
+
+<img width="555" alt="image" src="https://user-images.githubusercontent.com/52392004/165638323-5731e488-66cb-48a8-8574-db076a3875e4.png">
 
 
 ## User cases
