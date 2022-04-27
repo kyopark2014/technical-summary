@@ -21,6 +21,7 @@ Amazon Kinesis Data Streams is a **serverless streaming data service** that make
 
 ![image](https://user-images.githubusercontent.com/52392004/164177253-a4d812dc-61a3-49b5-8314-7bb58b134e4c.png)
 
+![image](https://user-images.githubusercontent.com/52392004/165636649-a866a0e5-c4ac-4026-bbb3-e6aec859e314.png)
 
 ## 특징 : Easily stream data at any scale
 
