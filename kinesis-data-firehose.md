@@ -11,6 +11,19 @@ Kinesis Data Firehose는 데이터를 쉽게 변환할 수 있습니다.
 <img width="555" alt="image" src="https://user-images.githubusercontent.com/52392004/165638323-5731e488-66cb-48a8-8574-db076a3875e4.png">
 
 
+## 특징
+
+1) Reliably load real-time streams into data lakes, warehouses, and analytics services
+
+2) Easily capture, transform, and load streaming data. Create a delivery stream, select your destination, and start streaming real-time data with just a few clicks.
+
+3) Automatically provision and scale compute, memory, and network resources without ongoing administration.
+
+4) Transform raw streaming data into formats like Apache Parquet, and dynamically partition streaming data without building your own processing pipelines.
+
+5) Connect with 30+ fully integrated AWS services and streaming destinations such as Amazon Simple Storage Service (S3) and Amazon Redshift.
+
+
 ## User cases
 
 1) Stream into data lakes and warehouses
@@ -24,19 +37,6 @@ Monitor network security in real time and create alerts when potential threats a
 3) Build ML streaming applications
 
 Enrich your data streams with machine learning (ML) models to analyze data and predict inference endpoints as streams move to their destination.
-
-
-## 특징
-
-1) Reliably load real-time streams into data lakes, warehouses, and analytics services
-
-2) Easily capture, transform, and load streaming data. Create a delivery stream, select your destination, and start streaming real-time data with just a few clicks.
-
-3) Automatically provision and scale compute, memory, and network resources without ongoing administration.
-
-4) Transform raw streaming data into formats like Apache Parquet, and dynamically partition streaming data without building your own processing pipelines.
-
-5) Connect with 30+ fully integrated AWS services and streaming destinations such as Amazon Simple Storage Service (S3) and Amazon Redshift.
 
 
 ## Cases
