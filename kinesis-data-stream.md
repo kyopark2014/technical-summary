@@ -36,7 +36,16 @@ Amazon Kinesis Data Streams is a **serverless streaming data service** that make
 
 ## Benefits of Stream storage
 
-![image](https://user-images.githubusercontent.com/52392004/164147360-3f405d67-f62d-42c2-bced-870fae479ac0.png)
+- Decouple producers & consumers
+
+- Persistent buffer
+
+- Collect multiple streams
+
+- Preserve client ordering
+
+- Parallel consumption
+
 
 
 pk: b8e0745459d9a885f1b30541e28e0e6c
