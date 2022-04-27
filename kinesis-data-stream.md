@@ -6,10 +6,6 @@ Amazon Kinesis Data Streams is a **serverless streaming data service** that make
 
 <img width="804" alt="image" src="https://user-images.githubusercontent.com/52392004/164144874-3337a267-03fa-469b-a53e-4410e9de6469.png">
 
-pk: b8e0745459d9a885f1b30541e28e0e6c
-
-kinesisResponse: { 
-"ShardId": "shardId-000000000000", "SequenceNumber": "49628968760419381815775185092326431149216009853023027202" } 
 
 ## 사용 케이스 
 
@@ -22,10 +18,14 @@ kinesisResponse: {
 
 ## Base structure
 
-[AWS re:Invent 2020: Top 5 best practices for data streaming with Amazon Kinesis](https://www.youtube.com/watch?v=UE34CWAhT3o)
 
 ![image](https://user-images.githubusercontent.com/52392004/164177253-a4d812dc-61a3-49b5-8314-7bb58b134e4c.png)
 
+
+pk: b8e0745459d9a885f1b30541e28e0e6c
+
+kinesisResponse: { 
+"ShardId": "shardId-000000000000", "SequenceNumber": "49628968760419381815775185092326431149216009853023027202" } 
 
 ## 특징 : Easily stream data at any scale
 
@@ -85,6 +85,9 @@ PK: Partition Key
 
 
 ## Reference 
+
+[AWS re:Invent 2020: Top 5 best practices for data streaming with Amazon Kinesis](https://www.youtube.com/watch?v=UE34CWAhT3o)
+
 
 [Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/data-streams/?nc1=h_ls)
 
