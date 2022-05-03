@@ -22,3 +22,8 @@ Kinesis Data Firehose의 주요 기능에 대해 설명합니다.
 ## [SQS](https://github.com/kyopark2014/technical-summary/blob/main/sqs.md)
 
 Amazon SQS에 사양에 대해 설명합니다. 
+
+
+## [Call Center Analytics](https://github.com/kyopark2014/technical-summary/blob/main/call-center-analytics.md)
+
+Call Center 솔루션인 AWS Connect에서 모아진 CTR 데이터를 수집하는 Architecture에 대해 설명합니다. 
