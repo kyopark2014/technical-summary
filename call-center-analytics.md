@@ -2,7 +2,11 @@
 
 AI/ML 기술의 발전으로 Call Center의 지능화가 진행되고 있습니다. Amazon Connect는 Call Center에 필요한 각종 솔루션을 제공하고 있습니다. 아래에서는 Amazon Connect에서 수집된 상담내역(Customer Trace Record) 등의 데이터를 어떻게 분석할 것인지에 대한 솔루션을 검토하고자 합니다. 
 
-기본 Architecture를 보여주고 있습니다.
+기본적인 Call Center Architecture는 아래와 같습니다.
+
+<img width="817" alt="image" src="https://user-images.githubusercontent.com/52392004/167278378-eb719a86-1fe5-45a1-bcad-28efde9ddd99.png">
+
+여기서, Contact Trace Records(CTR)관련된 Analytics만 표시하면 아래와 같습니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/163653523-8064b482-5394-49da-aa6d-1792aa085325.png)
 
