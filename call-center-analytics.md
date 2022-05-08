@@ -8,16 +8,17 @@ AI/ML 기술의 발전으로 Call Center의 지능화가 진행되고 있습니�
 
 여기서, Contact Trace Records(CTR)관련된 Analytics만 표시하면 아래와 같습니다.
 
-![image](https://user-images.githubusercontent.com/52392004/163653523-8064b482-5394-49da-aa6d-1792aa085325.png)
+<img width="767" alt="image" src="https://user-images.githubusercontent.com/52392004/167278474-30141c85-9bf1-4d5a-837e-4a3735b174b2.png">
 
 
 1) 고객(Customer)가 Call Center로 전화를 하고, 상담원(Agent)와 연결되면, 통화이력, 상담내용 등에 대한 Customer Trace Record (CTR)이 생성됩니다. 
 
 2) 생성된 CTR들은 Amazon Kinesis Data Stream을 통해 수집되고, Kinesis Data Firehose와 Glue Data Catalog를 통해 Parquet와 같은 파일로 변환 후 S3에 저장됩니다.
 
-3) Amazon S3에 저장된 CTR들은 Amazon Athena로 분석될 수 있으며, Amazon QuickSight로 상세한 현황을 확인할 수 있습니다. 
+3) 필요시 AWS Lambda를 통해 record를 변환하여 사용합니다.
 
-관련된 인프라는 Amazon CDK를 통해 관리되며, Amazon CloudWatch를 통해, 인프라 상황에 대한 상세한 정보를 열람할 수 있습니다. 
+4) Amazon S3에 저장된 CTR들은 Amazon Athena로 분석될 수 있으며, Amazon QuickSight로 상세한 현황을 확인할 수 있습니다. 
+
 
 
 ## Reference 
