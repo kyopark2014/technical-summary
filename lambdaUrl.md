@@ -37,10 +37,11 @@ IAM Credential은 AccessKeyId와 SecretAccessKey으로 구성되는데, 외부�
 
 Temporary security credentials은 STS(Security Token Server)을 통해 획득하는데, resource-based policies를 따르므로 [Lambda를 이용한 STS 연결](https://github.com/kyopark2014/aws-security-token-service/tree/main/lambda-for-sts)과 같이, IAM Role을 생성한 후에 AWS SDK를 통해 생성할 수 있습니다.
 
-[Temparary security credential 을 이용하여 Lambda Function URL 접속](https://github.com/kyopark2014/aws-security-token-service/blob/main/lambda-invation-using-temp-credential.md)에서는 Temperary security credential을 이용하여 Postman을 통해 Lambda 함수 URL에 접속하는 방법을 설명하고 있습니다.  
 
 
 ## Temperary Security Credential로 Lambda 함수 URL을 호출하는 Client 만들기 
+
+[Temparary security credential 을 이용하여 Lambda Function URL 접속](https://github.com/kyopark2014/aws-security-token-service/blob/main/lambda-invation-using-temp-credential.md)에서는 Temperary security credential을 이용하여 Postman을 통해 Lambda 함수 URL에 접속하는 방법을 설명하고 있습니다. 하지만, 이러한 방법으로 Postman에 매번 Temparary security credential을 생성하여 넣는 것은 매우 번거로우므로 아래와 같이 AWS SDK를 이용하는 방법에 대해 설명합니다. 
 
 #### AWS SDK를 이용하여 temparary security credential 생성
 
