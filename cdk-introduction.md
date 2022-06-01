@@ -19,7 +19,7 @@ $ cdk bootstrap aws://123456789012/ap-northeast-2
 ```
 여기서 '123456789012'은 Account Number를 의미합니다.
 
--- Upgrade
+aws-cdk-lib를 수동으로 Upgrade를 해줍니다.
 
 ```c
 $ npm install -g aws-cdk-lib
