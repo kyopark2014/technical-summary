@@ -21,6 +21,11 @@ Lamdba 함수 URL은 아래와 같은 포맷이며, IPv4와 IPv6을 모두에서
 https://<url-id>.lambda-url.<region>.on.aws
 ```
 
+아래 그림은 Lambda 함수 URL을 통해 DynamoDB를 조회하는 Architecture를 보여줍니다. 여기서, API Gateway 없이 Lambda로 직접 접속할 수 있어서 간단하고 편리하게 API를 제공 할 수 있습니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/171504331-85d9c9cb-829d-409f-a853-c718ae8f5338.png)
+
+
   
 ## Lambda 함수 URL 보안
 
