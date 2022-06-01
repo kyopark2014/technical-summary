@@ -26,9 +26,133 @@ Lambda 함수 URL은 인증 방식으로 AWS Identity and Access Management(IAM)
 
 ![image](https://user-images.githubusercontent.com/52392004/171420558-e491ca84-b26e-43c5-af95-a1da86493bb9.png)
 
-IAM은 
+IAM Credential은 AccessKeyId와 SecretAccessKey으로 구성되는데, 외부에 공개되지 않도록 세심한 주의가 필요합니다. 따라서, client에서 IAM Credential을 직접 사용하기 보다는 temparary security credential을 생성하여 사용하는것이 바람직합니다. 
 
+Temporary security credentials은 expire time을 가지고 있어서, 수분에서 수시간까지 변경하여 사용 할 수 있으며, 시간이 만료되면 더이상 사용할 수 없습니다. 
 
+Temporary security credentials은 STS(Security Token Server)을 통해 획득하는데, [Lambda를 이용한 STS 연결](https://github.com/kyopark2014/aws-security-token-service/tree/main/lambda-for-sts)과 같이 IAM Role 생성(resource-based policies)한 후에 AWS SDK를 통해 생성할 수 있습니다.
+
+## Temperary Security Credential로 Lambda 함수 URL을 호출하는 Client 만들기 
+
+#### AWS SDK를 이용하여 temparary security credential 생성
+
+기 생성한 Role을 가지고 아래와 같이 STS를 통해 Temperary security credential을 생성합니다.
+
+```java
+   const params = {
+        RoleArn: 'arn:aws:iam::123456789012:role/role-for-s3-fileserver',
+        RoleSessionName: 'session',
+    };
+    const assumeRoleCommand = new AssumeRoleCommand(params);
+    
+    let data;
+    try {
+        data = await sTS.send(assumeRoleCommand);
+    
+        console.log('data: %j',data);
+    } catch (error) {
+          console.log(error);
+    }
+```
+
+새로운 credential로 AWS의 Config를 업데이트 합니다.
+
+```java
+    aws.config.credentials.accessKeyId = data.Credentials.AccessKeyId;
+    aws.config.credentials.sessionToken = data.Credentials.SessionToken;
+    console.log("modified credentials: %j", aws.config.credentials);
+```
+
+아래와 같이 signature를 구합니다.
+
+```java
+    var region = 'ap-northeast-2';
+    var domain = 'hgwavninyisqd6utbvywn7drpe0mvkwp.lambda-url.ap-northeast-2.on.aws';
+    
+    console.log('domain: '+domain);
+
+    var myService = 'lambda';
+    var myMethod = 'GET';
+    var myPath = '/';
+    var body = '';
+
+    // Create the HTTP request
+    var request = new HttpRequest({
+        headers: {
+            'host': domain
+        },
+        hostname: domain,
+        method: myMethod,
+        path: myPath,
+        body: body,
+    });
+    console.log('request: %j', request);
+
+    // Sign the request
+    var signer = new SignatureV4({
+        credentials: defaultProvider(),
+        region: region,
+        service: myService,
+        sha256: Sha256
+    });
+    console.log('signer: %j', signer);
+
+    var signedRequest;
+    try {
+        signedRequest = await signer.sign(request);
+        console.log('signedRequest: %j', signedRequest);
+
+    } catch(err) {
+        console.log(err);
+    }
+```
+
+아래와 같이 https로 Lambda Function URL에 접속을 합니다.
+
+```java
+    // request
+    performRequest(domain, signedRequest.headers, signedRequest.body, myPath, myMethod, function(response) {    
+        console.log('response: %j', response);
+    });
+    
+    
+// the REST API call using the Node.js 'https' module
+function performRequest(endpoint, headers, data, path, method, success) {
+    var dataString = data;
+  
+    var options = {
+      host: endpoint,
+      port: 443,
+      path: path,
+      method: method,
+      headers: headers
+    };
+
+    var req = https.request(options, function(res) {
+        res.setEncoding('utf-8');
+    
+        var responseString = '';
+    
+        res.on('data', function(data) {
+            responseString += data;
+        });
+    
+        res.on('end', function() {
+            //console.log(responseString);
+            success(responseString);
+        });
+    });
+
+    req.write(dataString);
+    req.end();
+} 
+```
+
+상세한 코드는 [github code](https://github.com/kyopark2014/aws-security-token-service/blob/main/client/client-url.js)를 참조합니다.
+
+아래와 같이 client를 node로 실행합니다.
+
+$ node client-url.js
 
 ## Reference 
   
