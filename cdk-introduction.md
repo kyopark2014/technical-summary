@@ -19,6 +19,12 @@ $ cdk bootstrap aws://123456789012/ap-northeast-2
 ```
 여기서 '123456789012'은 Account Number를 의미합니다.
 
+-- Upgrade
+
+```c
+$ npm install -g aws-cdk-lib
+```
+
 
 ### AWS CDK Benefits
 
