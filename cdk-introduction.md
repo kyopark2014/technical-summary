@@ -8,7 +8,7 @@ CDK는 2018년 8월에 [AWS CDK Developer Preview](https://aws.amazon.com/ko/blo
 
 기본적으로 CDK는 CloudFormation Template을 생성하기 위한 툴이므로, AWS에서 새로운 feature를 개발하였을때, 새로운 feature가 CloudFormation으로 개발된 후 다시 CDK 새버전이 배포될때까지 기다려야 할 수 있습니다. 또한, CDK for Teraform과 같이 CloudFormation이외에도 사용될 수 있도록 확장되고 있습니다. 
 
-### CDK Initiate
+### CDK Initiation
 
 Typescript로 cdk를 설정시 아래와 같이 합니다.
 
