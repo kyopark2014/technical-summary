@@ -1,7 +1,7 @@
 # Lambda 함수 URL과 Client 인증
 
 
-## Lambda Functional URL 이란?
+## Lambda 함수 URL 이란?
 
 AWS의 대표적인 서비리스 서비스인 Lambda는 쉽게 생성하고 편리하게 쓸수 있으며, Concurrency도 제공하므로 편리하나, 외부에서 Lambda를 직접 호출 할 수 없었고, API Gateway를 포함하여야 합니다. API Gateway는 다양한 인증과 보안기능을 제공하나, 단 하나의 API를 간단히 구현하고자 하는 경우에도 API Gateway를 사용하여야 했습니다. 아래 그림은 일반적인 serverless architecture로서, DynamoDB를 조회하는 Lambda 함수를 위하여 API Gateway를 사용하고 있습니다. 
 
