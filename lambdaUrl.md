@@ -41,7 +41,7 @@ Temporary security credentials은 STS(Security Token Server)을 통해 획득하
 
 ## Temperary Security Credential로 Lambda 함수 URL을 호출하는 Client 만들기 
 
-[Temparary security credential 을 이용하여 Lambda Function URL 접속](https://github.com/kyopark2014/aws-security-token-service/blob/main/lambda-invation-using-temp-credential.md)에서는 Temperary security credential을 이용하여 Postman을 통해 Lambda 함수 URL에 접속하는 방법을 설명하고 있습니다. 하지만, 이러한 방법으로 Postman에 매번 Temparary security credential을 생성하여 넣는 것은 매우 번거로우므로 Client 직접 Temperary security credential을 생성하고 request를 보낼 수 있어야 합니다. 이것은 [Signing AWS requests with Signature Version 4](https://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html)을 이용하여 [Crypto로 직접 인증을 수행](https://github.com/kyopark2014/aws-security-token-service/tree/main/lambda-for-authentification-request-using-crypto)하거나, AWS SDK를 통해 구현이 가능합니다. 아래에서는 AWS SDK를 이용해서 temparary security credential을 생성하고, 이를 이용해 request를 singing하는 과정을 설명합니다. 
+[Temparary security credential 을 이용하여 Lambda Function URL 접속](https://github.com/kyopark2014/aws-security-token-service/blob/main/lambda-invation-using-temp-credential.md)에서는 Temperary security credential을 이용하여 Postman을 통해 Lambda 함수 URL에 접속하는 방법을 설명하고 있습니다. 하지만, 이러한 방법으로 Postman에 매번 Temparary security credential을 생성하여 넣는 것은 매우 번거로우므로, Client 직접 Temperary security credential을 생성하고 request를 보낼 수 있어야 합니다. 이것은 [Signing AWS requests with Signature Version 4](https://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html)을 이용하여 [Crypto로 직접 인증을 수행](https://github.com/kyopark2014/aws-security-token-service/tree/main/lambda-for-authentification-request-using-crypto)하거나, AWS SDK를 통해 구현이 가능합니다. 아래에서는 AWS SDK를 이용해서 temparary security credential을 생성하고, 이를 이용해 request를 singing하는 과정을 설명합니다. 
 
 #### AWS SDK를 이용하여 temparary security credential 생성
 
