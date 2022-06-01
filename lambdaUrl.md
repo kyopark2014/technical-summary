@@ -7,7 +7,7 @@ AWS의 대표적인 서비리스 서비스인 Lambda는 쉽게 생성하고 편�
 
 ![image](https://user-images.githubusercontent.com/52392004/171417037-0d2f02a3-a09a-4e80-9ab5-5d993b2b9dc9.png)
 
-단순한 api를 private하게 사용하는 경우에 Lambda를 HTTPS 엔드포인트로 사용하는 방법이 있습니다. [AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속 할 수 있습니다.
+[AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, 단순한 api를 private하게 사용하는 경우에 Lambda를 HTTPS 엔드포인트로 사용하는 방법이 있습니다.
 
 [Lambda 함수 URL 생성하기](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 할 수 있습니다. 
 
