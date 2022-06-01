@@ -3,17 +3,19 @@
 
 ## Lambda 함수 URL 이란?
 
-AWS의 대표적인 서비리스 서비스인 Lambda는 쉽게 생성하고 편리하게 쓸수 있으며, Concurrency도 제공하므로 편리하나, 외부에서 Lambda를 직접 호출 할 수 없었고, API Gateway를 포함하여야 합니다. API Gateway는 다양한 인증과 보안기능을 제공하나, 단 하나의 API를 간단히 구현하고자 하는 경우에도 API Gateway를 사용하여야 했습니다. 아래 그림은 일반적인 serverless architecture로서, DynamoDB를 조회하는 Lambda 함수를 위하여 API Gateway를 사용하고 있습니다. 
+AWS의 대표적인 서비리스 서비스인 Lambda는 인프라에 대한 고민없이 개발에만 집중할 수 있어 편리하며, Concurrency에 기반한 오토 스케일링으로 부하의 변동에 쉽게 대응할 수 있으며, 사용하지 않을 경우에는 비용이 발생하지 않아서 경제적입니다. 하지만 그동안 외부에서 Lambda를 직접 호출 할 수 없어, API Gateway를 Endpoint로 사용하여야 했습니다. API Gateway는 다양한 인증과 편리한 기능을 제공하나, 하나 또는 소수의 API를 간단히 구현하여 Private하게 사용하는에도 API Gateway를 사용하여야 했습니다. 아래 그림은 일반적인 serverless architecture로서, DynamoDB를 조회하는 Lambda 함수를 위하여 API Gateway를 사용하고 있습니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/171417037-0d2f02a3-a09a-4e80-9ab5-5d993b2b9dc9.png)
 
-[AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, 단순한 api를 private하게 사용하는 경우에 Lambda를 HTTPS 엔드포인트로 사용하는 방법이 있습니다.
+[AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, API Gateway없이 Lambda를 HTTPS 엔드포인트로 사용할 수 있게 되었습니다.
 
-[Lambda 함수 URL 생성하기](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 할 수 있는데, 아래와 같은 Lambda 함수 URL을 간단하게 생성하여 사용 할 수 있습니다. 
+[Lambda 함수 URL 생성하기](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 할 수 있습니다.
+
+Lambda 함수 URL을 Enable하여 아래와 같은 URL을 생성 할 수 있습니다.
 
 ![noname](https://user-images.githubusercontent.com/52392004/165218603-55d9c145-676e-4c40-a9f5-f46bb8a6d34f.png)
 
-Lamdba 함수 URL은 아래와 같은 포맷으로 생성되는데, IPv4와 IPv6을 모두에서 https를 지원하고, cross-origin resource sharing (CORS)도 지원하고 있습니다. 
+Lamdba 함수 URL은 아래와 같은 포맷이며, IPv4와 IPv6을 모두에서 https를 지원하고, cross-origin resource sharing (CORS)도 지원하고 있습니다. 
 
 ```c
 https://<url-id>.lambda-url.<region>.on.aws
