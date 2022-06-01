@@ -3,7 +3,7 @@
 
 ## Lambda 함수 URL 이란?
 
-AWS의 대표적인 서비리스 서비스인 Lambda는 인프라에 대한 고민없이 개발에만 집중할 수 있어 편리하며, Concurrency에 기반한 오토 스케일링으로 부하의 변동에 쉽게 대응할 수 있으며, 사용하지 않을 경우에는 비용이 발생하지 않아서 경제적입니다. 하지만 그동안 외부에서 Lambda를 직접 호출 할 수 없어, API Gateway를 Endpoint로 사용하여야 했습니다. API Gateway는 다양한 인증과 편리한 기능을 제공하나, 하나 또는 소수의 API를 간단히 구현하여 Private하게 사용하는 경우에도 API Gateway를 사용하여야 했습니다. 아래 그림은 일반적인 serverless architecture로서, DynamoDB를 조회하는 Lambda 함수를 위하여 API Gateway를 사용하고 있습니다. 
+AWS의 대표적인 서비리스 서비스인 Lambda는 인프라에 대한 고민없이 개발에만 집중할 수 있어 편리하며, Concurrency에 기반한 오토 스케일링으로 부하의 변동에 쉽게 대응할 수 있으며, 사용하지 않을 경우에는 비용이 발생하지 않아서 경제적입니다. 하지만 그동안 외부에서 Lambda를 직접 호출 할 수 없어, API Gateway를 Endpoint로 사용하여야 했습니다. API Gateway는 다양한 인증과 편리한 기능을 제공하나, 하나 또는 소수의 API를 간단히 구현하여 Private하게 사용하는 경우에도 API Gateway를 사용하여야 했습니다. 아래 그림은 [일반적인 serverless architecture](https://faun.pub/build-a-rest-api-with-api-gateway-aws-lambda-dynamodb-aws-cdk-616d1e17c128)로서, DynamoDB를 조회하는 Lambda 함수를 위하여 API Gateway를 사용하고 있습니다. 
 
 ![image](https://user-images.githubusercontent.com/52392004/171417037-0d2f02a3-a09a-4e80-9ab5-5d993b2b9dc9.png)
 
