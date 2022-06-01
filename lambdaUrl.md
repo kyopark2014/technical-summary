@@ -1,4 +1,4 @@
-# Lambda 함수 URL과 Client 인증
+# Lambda 함수 URL을 이용하여 편리히고 안전하게 API 서버 만들기
 
 
 ## Lambda 함수 URL 이란?
