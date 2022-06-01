@@ -7,7 +7,11 @@ AWS의 대표적인 서비리스 서비스인 Lambda는 인프라에 대한 고�
 
 ![image](https://user-images.githubusercontent.com/52392004/171417037-0d2f02a3-a09a-4e80-9ab5-5d993b2b9dc9.png)
 
-[AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, API Gateway없이 Lambda를 HTTPS 엔드포인트로 사용할 수 있게 되었습니다.
+[AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, API Gateway없이 Lambda를 HTTPS 엔드포인트로 사용할 수 있게 되었습니다. 아래 그림은 Lambda 함수 URL을 통해 DynamoDB를 조회하는 Architecture를 보여줍니다. 여기서, API Gateway 없이 Lambda로 직접 접속할 수 있어서 간단하고 편리하게 API를 제공 할 수 있습니다. 
+
+![image](https://user-images.githubusercontent.com/52392004/171504682-3599dbdf-3043-4657-9cf0-fceab7901a42.png)
+
+  
 
 [Lambda 함수 URL 생성하기](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 할 수 있습니다.
 
@@ -21,11 +25,7 @@ Lamdba 함수 URL은 아래와 같은 포맷이며, IPv4와 IPv6을 모두에서
 https://<url-id>.lambda-url.<region>.on.aws
 ```
 
-아래 그림은 Lambda 함수 URL을 통해 DynamoDB를 조회하는 Architecture를 보여줍니다. 여기서, API Gateway 없이 Lambda로 직접 접속할 수 있어서 간단하고 편리하게 API를 제공 할 수 있습니다. 
 
-![image](https://user-images.githubusercontent.com/52392004/171504682-3599dbdf-3043-4657-9cf0-fceab7901a42.png)
-
-  
 ## Lambda 함수 URL 보안
 
 Lambda 함수 URL은 인증 방식으로 AWS Identity and Access Management(IAM)만을 제공하므로, 외부 접속을 제한하기 위해서는 IAM을 사용하여야 합니다. 
