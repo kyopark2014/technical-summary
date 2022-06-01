@@ -9,16 +9,18 @@ AWS의 대표적인 서비리스 서비스인 Lambda는 쉽게 생성하고 편�
 
 [AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, 단순한 api를 private하게 사용하는 경우에 Lambda를 HTTPS 엔드포인트로 사용하는 방법이 있습니다.
 
-[Lambda 함수 URL 생성하기](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 할 수 있습니다. 
+[Lambda 함수 URL 생성하기](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 할 수 있는데, 아래와 같은 Lambda 함수 URL을 간단하게 생성하여 사용 할 수 있습니다. 
 
-
-
-Lambda 함수 
 ![noname](https://user-images.githubusercontent.com/52392004/165218603-55d9c145-676e-4c40-a9f5-f46bb8a6d34f.png)
 
-https://<url-id>.lambda-url.<region>.on.aws
+Lamdba 함수 URL은 아래와 같은 포맷으로 생성됩니다. 
 
-  
+```c
+https://<url-id>.lambda-url.<region>.on.aws
+```
+
+uri-id는 
+
   Lambda generates the <url-id> portion of the endpoint based on a number of factors, including your AWS account ID. Because this process is deterministic, it may be possible for anyone to retrieve your account ID from the <url-id>.
 
 
