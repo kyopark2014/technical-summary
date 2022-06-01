@@ -23,7 +23,7 @@ https://<url-id>.lambda-url.<region>.on.aws
 
 아래 그림은 Lambda 함수 URL을 통해 DynamoDB를 조회하는 Architecture를 보여줍니다. 여기서, API Gateway 없이 Lambda로 직접 접속할 수 있어서 간단하고 편리하게 API를 제공 할 수 있습니다. 
 
-![image](https://user-images.githubusercontent.com/52392004/171504510-aae7ffde-1261-478b-b3f6-3379913049f0.png)
+![image](https://user-images.githubusercontent.com/52392004/171504682-3599dbdf-3043-4657-9cf0-fceab7901a42.png)
 
   
 ## Lambda 함수 URL 보안
