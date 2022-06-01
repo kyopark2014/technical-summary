@@ -8,17 +8,29 @@ AWS의 대표적인 서비리스 서비스인 Lambda는 쉽게 생성하고 편�
 [AWS Lambda 함수 URL](https://aws.amazon.com/ko/about-aws/whats-new/2022/04/aws-lambda-function-urls-built-in-https-endpoints/)이 2022년 4월에 상용 적용됨으로 인해, Lambda 함수를 외부에서 간단하게 접속 할 수 있습니다. 여기서는 Simple한 Data Acquisition Unit를 설계하므로, Lambda Functional URL 기능을 활용합니다. 
 
 
-
-
 [Lambda for Functional URL](https://github.com/kyopark2014/simple-data-aquisition-unit/blob/main/lambda-for-functional-url.md)에 따라 Lambda를 생성하고, Functional URL 기능을 Enable 합니다. 
 
-디바이스들로 부터 전달되는 이벤트는 application/json 방식의 Content-type을 가진다고 가정합니다. RESTful API를 통해 HTTPS POST를 이용해 데이터가 Lambda for Functional URL로 전달됩니다. 
+Lambda 함수 
+![noname](https://user-images.githubusercontent.com/52392004/165218603-55d9c145-676e-4c40-a9f5-f46bb8a6d34f.png)
 
+https://<url-id>.lambda-url.<region>.on.aws
+
+  
+  Lambda generates the <url-id> portion of the endpoint based on a number of factors, including your AWS account ID. Because this process is deterministic, it may be possible for anyone to retrieve your account ID from the <url-id>.
+
+
+   supporting IPv4 and IPv6. After you configure a function URL for your function, you can invoke your function through its HTTP(S) endpoint via a web browser, curl, Postman, or any HTTP client. Lambda function URLs use resource-based policies for security and access control. Function URLs also support cross-origin resource sharing (CORS) configuration options.
+  
+  
 ## Lambda 함수 URL 보안
 
-
-Lambda 함수 URL의 외부 접속을 제한하기 위해서는 AWS Identity and Access Management(IAM)을 사용하여야 합니다. 
-
+Lambda 함수 URL은 인증 방식으로 AWS Identity and Access Management(IAM)만을 제공하므로, 외부 접속을 제한하기 위해서는 IAM을 사용하여야 합니다. 
 
 ![noname](https://user-images.githubusercontent.com/52392004/165218237-c78d26b7-1ce3-4bd4-ac63-b7ca8b71a37a.png)
 
+
+## Reference 
+  
+[Lambda function URLs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html?icmpid=docs_lambda_help)
+  
+  
