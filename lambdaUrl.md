@@ -16,6 +16,9 @@ AWS의 대표적인 서비리스 서비스인 Lambda는 쉽게 생성하고 편�
 
 ## Lambda 함수 URL 보안
 
+
 Lambda 함수 URL의 외부 접속을 제한하기 위해서는 AWS Identity and Access Management(IAM)을 사용하여야 합니다. 
 
+
 ![noname](https://user-images.githubusercontent.com/52392004/165218237-c78d26b7-1ce3-4bd4-ac63-b7ca8b71a37a.png)
+
