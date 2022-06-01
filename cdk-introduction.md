@@ -1,4 +1,4 @@
-# CDK Introduction
+# CDK 소개
 
 ## CDK 정의
 
