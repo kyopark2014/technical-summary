@@ -13,19 +13,12 @@ AWS의 대표적인 서비리스 서비스인 Lambda는 쉽게 생성하고 편�
 
 ![noname](https://user-images.githubusercontent.com/52392004/165218603-55d9c145-676e-4c40-a9f5-f46bb8a6d34f.png)
 
-Lamdba 함수 URL은 아래와 같은 포맷으로 생성됩니다. 
+Lamdba 함수 URL은 아래와 같은 포맷으로 생성되는데, IPv4와 IPv6을 모두에서 https를 지원하고, cross-origin resource sharing (CORS)도 지원하고 있습니다. 
 
 ```c
 https://<url-id>.lambda-url.<region>.on.aws
 ```
 
-uri-id는 
-
-  Lambda generates the <url-id> portion of the endpoint based on a number of factors, including your AWS account ID. Because this process is deterministic, it may be possible for anyone to retrieve your account ID from the <url-id>.
-
-
-   supporting IPv4 and IPv6. After you configure a function URL for your function, you can invoke your function through its HTTP(S) endpoint via a web browser, curl, Postman, or any HTTP client. Lambda function URLs use resource-based policies for security and access control. Function URLs also support cross-origin resource sharing (CORS) configuration options.
-  
   
 ## Lambda 함수 URL 보안
 
@@ -34,9 +27,10 @@ Lambda 함수 URL은 인증 방식으로 AWS Identity and Access Management(IAM)
 ![noname](https://user-images.githubusercontent.com/52392004/165218237-c78d26b7-1ce3-4bd4-ac63-b7ca8b71a37a.png)
 
 
+
+
 ## Reference 
   
 [Lambda function URLs](https://docs.aws.amazon.com/lambda/latest/dg/lambda-urls.html?icmpid=docs_lambda_help)
-  
-  
+    
 [Build a REST API with API Gateway, AWS Lambda, DynamoDB & AWS CDK](https://faun.pub/build-a-rest-api-with-api-gateway-aws-lambda-dynamodb-aws-cdk-616d1e17c128)
