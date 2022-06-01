@@ -37,6 +37,20 @@ $ npm install -g aws-cdk-lib
 4) No context switching — AWS CDK enables you to build your cloud application without leaving your IDE. You can write your runtime code and define your AWS resources with the same programming language. You can visualise your CDK application stacks and resources with the AWS Toolkit for VS Code.
 
 
+### CDK Construct 
+
+- Level 1 (L1) construct
+
+These are direct representations of CloudFormation resources. When you choose L1 constructs you must provide all the required CloudFormation attributes for a particular cloud resource.
+
+- Level 2 (L2) construct
+
+A Level 2 construct also represents a particular cloud resource. E.g. An S3 bucket. But you don’t have to configure every configuration attribute. Instead, they are provided with convenient default values such that you can easily spin up a certain cloud resource.
+
+- Level 3 (L3) construct
+
+A Level 3 construct represents a bunch of cloud resources that work together to accomplish a particular task. They are also called “patterns”. For example, you can create an ApplicationLoadBalancedFarageteService which will create an ECS cluster powered by Fargate, an ECR repository to host your Docker images, Application Load Balancer to access your containers, etc…
+
 ### 지원언어
 
 . TypeScript, JavaScript, Python, Java, Go, C#/NET
