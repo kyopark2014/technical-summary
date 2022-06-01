@@ -34,7 +34,7 @@ Lambda 함수 URL은 인증 방식으로 AWS Identity and Access Management(IAM)
 
 IAM Credential은 AccessKeyId와 SecretAccessKey으로 구성되는데, 외부에 공개되지 않도록 세심한 주의가 필요합니다. 따라서, client에서 IAM Credential을 직접 사용하기 보다는 temparary security credential을 생성하여 사용하는것이 바람직합니다. Temporary security credentials의 expire time을 설정하면, 수분에서 수시간까지 변경 할 수 있으며, 시간이 만료되면 더이상 사용할 수 없습니다. 
 
-Temporary security credentials은 STS(Security Token Server)을 통해 획득하는데, [Lambda를 이용한 STS 연결](https://github.com/kyopark2014/aws-security-token-service/tree/main/lambda-for-sts)과 같이 IAM Role 생성(resource-based policies)한 후에 AWS SDK를 통해 생성할 수 있습니다.
+Temporary security credentials은 STS(Security Token Server)을 통해 획득하는데, resource-based policies를 따르므로 [Lambda를 이용한 STS 연결](https://github.com/kyopark2014/aws-security-token-service/tree/main/lambda-for-sts)과 같이, IAM Role을 생성한 후에 AWS SDK를 통해 생성할 수 있습니다.
 
 ## Temperary Security Credential로 Lambda 함수 URL을 호출하는 Client 만들기 
 
