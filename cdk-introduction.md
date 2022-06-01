@@ -8,6 +8,18 @@ CDK는 2018년 8월에 [AWS CDK Developer Preview](https://aws.amazon.com/ko/blo
 
 기본적으로 CDK는 CloudFormation Template을 생성하기 위한 툴이므로, AWS에서 새로운 feature를 개발하였을때, 새로운 feature가 CloudFormation으로 개발된 후 다시 CDK 새버전이 배포될때까지 기다려야 할 수 있습니다. 또한, CDK for Teraform과 같이 CloudFormation이외에도 사용될 수 있도록 확장되고 있습니다. 
 
+### CDK Initiate
+
+Typescript로 cdk를 설정시 아래와 같이 합니다.
+
+```c
+$ cdk init app --language typescript
+
+$ cdk bootstrap aws://123456789012/ap-northeast-2
+```
+여기서 '123456789012'은 Account Number를 의미합니다.
+
+
 ### AWS CDK Benefits
 
 1) Easier cloud onboarding — AWS CDK accelerates your onboarding to AWS because there are few new things to learn. CDK enables you to use your existing skills and tools, and apply those to the task of building cloud infrastructure. It also provides high-level components that preconfigure cloud resources with proven defaults, helping you build on AWS without needing to be an expert.
