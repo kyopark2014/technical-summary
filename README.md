@@ -28,6 +28,9 @@ Amazon SQS에 사양에 대해 설명합니다.
 
 Call Center 솔루션인 AWS Connect에서 모아진 CTR 데이터를 수집하는 Architecture에 대해 설명합니다. 
 
+## [Slack Token 발급](https://github.com/kyopark2014/serverless-storytime/blob/main/docs/slackapp.md)
+
+Slack으로 메시지를 보내기 위한 Token 생성 및 업데이트에 대해 설명합니다. 
 
 ## NLB (Network Load Balancer) Limitation
 
