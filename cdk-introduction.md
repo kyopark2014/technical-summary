@@ -124,6 +124,6 @@ AWS Serverless Application Model 및 AWS CDK는 모두 AWS 인프라를 코드�
 
 9) [AWS CDK — A Beginner’s Guide with Examples](https://enlear.academy/aws-cdk-a-beginners-guide-with-examples-424c600ac409)
 
-10) AWS CDK Construct Hub (https://constructs.dev)
+10) [AWS CDK Construct Hub](https://constructs.dev)
 
 
