@@ -4,7 +4,7 @@
 
 AWS CDK(Cloud Development Kit)는 프로그래밍 언어를 사용하여 클라우드 인프라를 코드로 정의하고, AWS CloudFormation을 통해 배포하는 오픈 소스 소프트웨어 개발 프레임워크입니다. Typescript, Node.JS, Python, Go와 같은 다양한 언어를 지원하므로 인프라를 쉽게 개발할 수 있습니다. 
 
-AWS CDK는 아래와 같은 절차를 거쳐서 cloud resources를 생성하게 됩니다. CDK로 작성된 소스를 실행하면 CDK CLI 명령어를 통해 synthesize & deploy되고 provision과정을 통해 cloud resouce로 배포 됩니다.[1)
+AWS CDK는 아래와 같은 절차를 거쳐서 cloud resources를 생성하게 됩니다. CDK로 작성된 소스를 실행하면 CDK CLI 명령어를 통해 synthesize & deploy되고 provision과정을 통해 cloud resouce로 배포 됩니다.[1]
 
 ![image](https://user-images.githubusercontent.com/52392004/172324479-fca63748-9bcb-4d2c-82c6-ddbcb6f73e8c.png)
 
