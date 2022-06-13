@@ -36,5 +36,10 @@ sudo yum install jq -y
 jq --version
 
 S3_BUCKET=$(cat config.json | jq -r '.Artifacts.S3Bucket')
+S3_PREFIX=$(cat config.json | jq -r '.Artifacts.S3Prefix')
+
+S3_PATH="s3://${S3_BUCKET}/${S3_PREFIX}"
+
+echo s3 path: $S3_PATH
 ```
 
