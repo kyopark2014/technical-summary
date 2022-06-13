@@ -1,7 +1,6 @@
 ## 유용한 명령어들 
 
-### Account id
-
+### Account id 확인 방법 
 
 ```c
 $ aws sts get-caller-identity --query Account --output text
