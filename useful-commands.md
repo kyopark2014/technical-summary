@@ -7,7 +7,7 @@
 $ aws sts get-caller-identity --query Account --output text
 ```
 
-### JSON 특정 변수 가져오기 
+### JSON 특정 변수 가져와서 사용하기 
 
 config.json의 예제입니다. 
 
