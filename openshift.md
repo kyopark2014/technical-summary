@@ -31,6 +31,8 @@
 
 ## Red Hat OpenShift 옵션
 
+[선호하는 클라우드 제공업체에 Red Hat OpenShift를 관리형 서비스](https://www.redhat.com/ko/technologies/cloud-computing/openshift#developer)로 배포하고 Azure, AWS, IBM Cloud 또는 Google Cloud에서 원활한 경험을 누릴 수 있습니다.
+
 ![image](https://user-images.githubusercontent.com/52392004/175792569-31c6444b-1071-4c88-b255-a2a458afb876.png)
 
 
