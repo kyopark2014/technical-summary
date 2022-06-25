@@ -69,6 +69,14 @@ AWS 비용에 아래의 비용이 추가 됩니다.
 - JBossEAP를 통한 WAS 클러스터링(Session Clustering) 기능 제공
 - H/W 확장시 ANSIBLE을 통한 쉬운 설치/구성
 
+
+## CI/CD
+
+[컨테이너, 어디까지 왔나? 레드햇과 함께하는 컨테이너 집중 탐구](https://www.youtube.com/watch?v=PsCmswVRTxo)
+
+![image](https://user-images.githubusercontent.com/52392004/175793453-f69580cd-47b5-42a6-94de-6145832a3c9f.png)
+
+
 ## Developer Sandbox for Red Hat OpenShift
 
 [샌드박스 빌드](https://developers.redhat.com/developer-sandbox#assembly-field-sections-57831) 환경
