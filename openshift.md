@@ -47,6 +47,8 @@ Red Hat OpenShift Service on AWS는 레드햇과 아마존 웹서비스가 협�
 
 [Red Hat OpenShift Service on AWS](https://ap-northeast-2.console.aws.amazon.com/rosa/home?region=ap-northeast-2#/)
 
+<img width="583" alt="image" src="https://user-images.githubusercontent.com/52392004/175792666-6c3acd5c-723b-476d-8457-b1a0f97e4c0b.png">
+
 ## Developer Sandbox for Red Hat OpenShift
 
 [샌드박스 빌드](https://developers.redhat.com/developer-sandbox#assembly-field-sections-57831) 환경
