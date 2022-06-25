@@ -45,7 +45,7 @@ Red Hat OpenShift Service on AWS는 레드햇과 아마존 웹서비스가 협�
 
 [Hands-on demo of Red Hat OpenShift Service on AWS](https://www.youtube.com/watch?v=MFcbuxkP3C4)
 
-
+[Red Hat OpenShift Service on AWS](https://ap-northeast-2.console.aws.amazon.com/rosa/home?region=ap-northeast-2#/)
 
 ## Developer Sandbox for Red Hat OpenShift
 
