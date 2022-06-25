@@ -36,6 +36,17 @@
 ![image](https://user-images.githubusercontent.com/52392004/175792569-31c6444b-1071-4c88-b255-a2a458afb876.png)
 
 
+### Red Hat OpenShift Service on AWS
+
+Red Hat OpenShift Service on AWS는 레드햇과 아마존 웹서비스가 협력하여 지원하며, 전체적으로 관리하는 Red Hat OpenShift 서비스입니다.
+
+- AWS에서 기본적으로 실행되는 Red Hat OpenShift로 쿠버네티스 애플리케이션을 구축, 배포 및 관리
+- Red Hat OpenShift Service on AWS가 제공하는 전체 관리형 Red Hat OpenShift 서비스를 선택하면 통합 클러스터 생성, 유연한 사용량 기준 요금 청구, Red Hat과 AWS 양사의 공동 지원
+
+[Hands-on demo of Red Hat OpenShift Service on AWS](https://www.youtube.com/watch?v=MFcbuxkP3C4)
+
+
+
 ## Developer Sandbox for Red Hat OpenShift
 
 [샌드박스 빌드](https://developers.redhat.com/developer-sandbox#assembly-field-sections-57831) 환경
