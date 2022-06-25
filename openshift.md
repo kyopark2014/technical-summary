@@ -53,6 +53,21 @@ AWS 비용에 아래의 비용이 추가 됩니다.
 
 <img width="428" alt="image" src="https://user-images.githubusercontent.com/52392004/175792702-02d76087-21b1-40c1-8f1f-19f1aa193fbc.png">
 
+## [특징](https://www.penta.co.kr/solution/sisw/cloudpalatform/rhpaas.php)
+
+- Docker를 사용하여 구현된 공개SW기반 PaaS
+- Docker컨테이너들의 오케스트레이션을 위한 Kubernetes적용
+- Bare-Metal, VM(vSphere, Hyper-V, RHEV 등), Public/Private IaaS 제약없이 설치
+- 빠르고 쉽게 애플리케이션플랫폼 제공
+- Git연동을 통한 소스 maven 컴파일 및 배포 (자동)
+- OpenVswitch를 통한 자동 Networking 구성
+- 관리 및 모니터링을 위한 Web Console, REST API 및CLI 제공
+- 소스버전관리용 Git, Docker이미지버전 관리용 Registry(저장소) 제공
+- AutoScaler를 통한 Docker 컨테이너 자동 확장/축소 (Auto-Scaling)
+- Router를 통한 자동 부하분산 (Load-Balancing)
+- Wildcard entry를 통한 DNS 연계 제공
+- JBossEAP를 통한 WAS 클러스터링(Session Clustering) 기능 제공
+- H/W 확장시 ANSIBLE을 통한 쉬운 설치/구성
 
 ## Developer Sandbox for Red Hat OpenShift
 
