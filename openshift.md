@@ -4,6 +4,10 @@
 
 - Kubernetes Container Platform
 - 하이브리드/멀티 클라우드 및 엣지 배포를 관리 
+- [Openshift](https://www.youtube.com/watch?v=S5NTxTtfdg8): Red Hat Enterprise, Prometheus, Tekton, Grafana, Crio-o로 구성됨
+
+![image](https://user-images.githubusercontent.com/52392004/175792246-2f6033bc-85fc-48b3-9f94-b0aab7106613.png)
+
 
 ## 오픈 하이브리드 클라우드
 
