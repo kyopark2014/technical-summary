@@ -4,6 +4,9 @@
 
 - Kubernetes Container Platform
 - 하이브리드/멀티 클라우드 및 엣지 배포를 관리 
+
+- [설치된 위치에 상관없이 인터페이스](https://www.redhat.com/ko/technologies/cloud-computing/openshift#developer)는 관리자 및 개발자에게 동일한 상태로 유지되므로 중앙 관리 콘솔에서 여러 팀의 클러스터, 서비스 및 역할을 제어할 수 있습니다.
+
 - [Openshift](https://www.youtube.com/watch?v=S5NTxTtfdg8): Red Hat Enterprise, Prometheus, Tekton, Grafana, Crio-o로 구성됨
 
 ![image](https://user-images.githubusercontent.com/52392004/175792246-2f6033bc-85fc-48b3-9f94-b0aab7106613.png)
@@ -26,4 +29,20 @@
 
 ![image](https://user-images.githubusercontent.com/52392004/175792174-2d401d7b-98c2-433f-8419-3b5de5f2439b.png)
 
+
+## Developer Sandbox for Red Hat OpenShift
+
+[샌드박스 빌드](https://developers.redhat.com/developer-sandbox#assembly-field-sections-57831) 환경
+
+![image](https://user-images.githubusercontent.com/52392004/175792275-5cc2f469-f619-4209-ba97-d174f8955c03.png)
+
+The sandbox provides you with a private OpenShift environment in a shared, multi-tenant OpenShift cluster that is pre-configured with a set of developer tools.
+
+
+The sandbox is your free access to an OpenShift cluster where you can learn and experiment with Kubernetes and OpenShift. Several developer tools are pre-configured for you, and you can build one of our sample applications — or use your own code.
+
+- Provided runtimes (e.g. Python, PHP, Java, and more)
+- Database templates (get a SQL database in seconds)
+- Helm charts
+- Kubernetes objects, such as Deployments
 
