@@ -49,6 +49,11 @@ Red Hat OpenShift Service on AWS는 레드햇과 아마존 웹서비스가 협�
 
 <img width="583" alt="image" src="https://user-images.githubusercontent.com/52392004/175792666-6c3acd5c-723b-476d-8457-b1a0f97e4c0b.png">
 
+AWS 비용에 아래의 비용이 추가 됩니다. 
+
+<img width="428" alt="image" src="https://user-images.githubusercontent.com/52392004/175792702-02d76087-21b1-40c1-8f1f-19f1aa193fbc.png">
+
+
 ## Developer Sandbox for Red Hat OpenShift
 
 [샌드박스 빌드](https://developers.redhat.com/developer-sandbox#assembly-field-sections-57831) 환경
