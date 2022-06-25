@@ -85,3 +85,20 @@ The sandbox is your free access to an OpenShift cluster where you can learn and 
 - Helm charts
 - Kubernetes objects, such as Deployments
 
+## 오픈시프트 제공 버전
+
+- OpenShift Origin
+Origin은 커뮤니티가 지원하는 오픈시프트의 오픈 소스 업스트림 프로젝트입니다. Origin은 CentOS 또는 RHEL(Red Hat Enterprise Linux)에 설치할 수 있습니다.
+
+- OpenShift Container Platform
+Container Platform은 Red Hat이 제공하고 지원하는 엔터프라이즈급 사용 버전입니다. 이 버전을 통해 고객은 오픈시프트 컨테이너 플랫폼에 필요한 자격을 구매하고 전체 인프라의 설치 및 관리를 담당합니다.
+
+고객이 전체 플랫폼을 “소유”하기 때문에 온-프레미스 데이터 센터나 공용 클라우드(Azure, AWS, Google 등)에 설치할 수 있습니다.
+
+- OpenShift Online
+Online은 Container Platform을 사용하는 Red Hat이 관리하는 멀티 테넌트 오픈시프트입니다. Red Hat이 모든 기본 인프라(예: VM, 오픈시프트 클러스터, 네트워킹, 저장소 등)를 관리합니다.
+
+이 버전을 통해 고객은 컨테이너를 배포하지만 컨테이너가 실행되는 호스트를 제어할 수 없습니다. Online은 다중 테넌트이므로 컨테이너가 다른 고객의 컨테이너와 동일한 VM 호스트에 함께 배치될 수 있습니다. 비용은 컨테이너당 비용이 청구됩니다.
+
+- OpenShift Dedicated
+Dedicated는 Container Platform을 사용하는 Red Hat이 관리하는 단일 테넌트 OpenShift입니다. Red Hat이 모든 기본 인프라(VM, OpenShift 클러스터, 네트워킹, 저장소 등)를 관리합니다. 클러스터는 한 고객 전용이며 공용 클라우드(예: AWS, Google, Azure는 2018년 초 출시 예정)에서 실행됩니다. 시작 클러스터에는 연간 $48,000에(선불) 4개의 응용 프로그램 노드가 포함됩니다.
