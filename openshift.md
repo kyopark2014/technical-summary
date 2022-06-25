@@ -78,6 +78,8 @@ AWS 비용에 아래의 비용이 추가 됩니다.
 
 ![image](https://user-images.githubusercontent.com/52392004/175793548-6da717bf-39dd-47b6-8a51-45c7afb04a89.png)
 
+![image](https://user-images.githubusercontent.com/52392004/175793618-daebff22-876d-449a-96c5-d71fa2fd431c.png)
+
 ## Developer Sandbox for Red Hat OpenShift
 
 [샌드박스 빌드](https://developers.redhat.com/developer-sandbox#assembly-field-sections-57831) 환경
