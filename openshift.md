@@ -85,7 +85,7 @@ The sandbox is your free access to an OpenShift cluster where you can learn and 
 - Helm charts
 - Kubernetes objects, such as Deployments
 
-## 오픈시프트 제공 버전
+## [오픈시프트 제공 버전](http://www.opennaru.com/redhat/openshift/)
 
 - OpenShift Origin
 Origin은 커뮤니티가 지원하는 오픈시프트의 오픈 소스 업스트림 프로젝트입니다. Origin은 CentOS 또는 RHEL(Red Hat Enterprise Linux)에 설치할 수 있습니다.
