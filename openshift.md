@@ -29,6 +29,10 @@
 
 ![image](https://user-images.githubusercontent.com/52392004/175792174-2d401d7b-98c2-433f-8419-3b5de5f2439b.png)
 
+## Red Hat OpenShift 옵션
+
+![image](https://user-images.githubusercontent.com/52392004/175792569-31c6444b-1071-4c88-b255-a2a458afb876.png)
+
 
 ## Developer Sandbox for Red Hat OpenShift
 
