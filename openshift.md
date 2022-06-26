@@ -2,6 +2,8 @@
 
 Openshift는 Red Hat의 하이브리드 또는 멀티 클라우드를 위한 Kubernetes Container platform입니다. 아래 내용은 Openshift에 대해 이해하기 위해, Red Hat의 자료를 중심으로 정리하였습니다. 
 
+Red Hat Openshift Service on AWS (ROSA) is a fully-managed turnkey application platform that allows you to focus on what matters most, delivering value to your customers by building and deploying applications
+
 ## 주요특징
 
 [Red Hat® OpenShift](https://www.redhat.com/ko/technologies/cloud-computing/openshift)는 오픈 하이브리드 클라우드 전략을 위해 구축된 엔터프라이즈 수준의 쿠버네티스 컨테이너 플랫폼으로서 하이브리드 클라우드, 멀티클라우드 및 엣지 배포를 관리할 수 있는 일관된 애플리케이션 플랫폼을 제공합니다.
@@ -120,3 +122,8 @@ Online은 Container Platform을 사용하는 Red Hat이 관리하는 멀티 테�
 
 - OpenShift Dedicated
 Dedicated는 Container Platform을 사용하는 Red Hat이 관리하는 단일 테넌트 OpenShift입니다. Red Hat이 모든 기본 인프라(VM, OpenShift 클러스터, 네트워킹, 저장소 등)를 관리합니다. 클러스터는 한 고객 전용이며 공용 클라우드(예: AWS, Google, Azure는 2018년 초 출시 예정)에서 실행됩니다. 시작 클러스터에는 연간 $48,000에(선불) 4개의 응용 프로그램 노드가 포함됩니다.
+
+
+## Referece
+
+[Workshop - Red Hat OpenShift Service on AWS](https://www.rosaworkshop.io/)
