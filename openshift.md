@@ -10,7 +10,7 @@ Openshift는 Red Hat의 하이브리드 또는 멀티 클라우드를 위한 Kub
 
 - 하이브리드/멀티 클라우드 및 엣지 배포를 관리 
 
-- Red Hat OS만 지
+- Red Hat OS만 지원 
 
 - [설치된 위치에 상관없이 인터페이스](https://www.redhat.com/ko/technologies/cloud-computing/openshift#developer)는 관리자 및 개발자에게 동일한 상태로 유지되므로 중앙 관리 콘솔에서 여러 팀의 클러스터, 서비스 및 역할을 제어할 수 있습니다.
 
