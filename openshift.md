@@ -1,6 +1,10 @@
-# RedHat Openshift
+# Red Hat Openshift
 
-[Red Hat® OpenShift](https://www.redhat.com/ko/technologies/cloud-computing/openshift)는 오픈 하이브리드 클라우드 전략을 위해 구축된 엔터프라이즈 수준의 쿠버네티스 컨테이너 플랫폼으로서 하이브리드 클라우드, 멀티클라우드 및 엣지 배포를 관리할 수 있는 일관된 애플리케이션 플랫폼을 제공.
+Openshift는 Red Hat의 하이브리드 또는 멀티 클라우드를 위한 Kubernetes Container platform입니다. 아래 내용은 Openshift에 대해 이해하기 위해, Red Hat의 자료를 중심으로 정리하였습니다. 
+
+## 주요특징
+
+[Red Hat® OpenShift](https://www.redhat.com/ko/technologies/cloud-computing/openshift)는 오픈 하이브리드 클라우드 전략을 위해 구축된 엔터프라이즈 수준의 쿠버네티스 컨테이너 플랫폼으로서 하이브리드 클라우드, 멀티클라우드 및 엣지 배포를 관리할 수 있는 일관된 애플리케이션 플랫폼을 제공합니다.
 
 - Kubernetes Container Platform
 - 하이브리드/멀티 클라우드 및 엣지 배포를 관리 
