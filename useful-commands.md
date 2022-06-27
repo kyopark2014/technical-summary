@@ -2,8 +2,6 @@
 
 ### Account id 확인 방법 
 
-$ aws sts get-caller-identity --query Account --output text $
-
 ```c
 $ aws sts get-caller-identity --query Account --output text
 ```
