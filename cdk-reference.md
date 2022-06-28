@@ -187,3 +187,35 @@ add the policy to the Function's role
     );
 ```
 
+## Multiple principals 
+
+1) 방안1
+
+```java
+    const Role = new iam.Role(this, 'LambdaRole', {
+      // assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
+      description: 'Role for lambda function url',
+      assumedBy: new iam.CompositePrincipal(
+        new iam.ServicePrincipal("lambda.amazonaws.com"),
+        new iam.AccountPrincipal(cdk.Stack.of(this).account),
+      ),
+    });
+```
+
+2) 방안2 
+
+```java
+    const Role = new iam.Role(this, 'LambdaRole', {
+      assumedBy: new iam.ServicePrincipal('lambda.amazonaws.com'),
+      description: 'Role for lambda function url',
+    });
+    
+    Role.assumeRolePolicy?.addStatements(
+      new iam.PolicyStatement({
+        actions: ['sts:AssumeRole'],
+        effect: iam.Effect.ALLOW,
+        principals: [new iam.AccountPrincipal(cdk.Stack.of(this).account)]
+      })
+    ); 
+```    
+    
