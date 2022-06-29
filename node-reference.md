@@ -23,19 +23,19 @@ try {
 ## DynamoDB 전체 읽기 
 
 ```java
-        const queryParams = {
-            TableName: tableName
-        };
+const queryParams = {
+  TableName: tableName
+};
         
-        var dynamoQuery; 
-        try {
-            dynamoQuery = await dynamo.scan(queryParams).promise();
+var dynamoQuery; 
+try {
+  dynamoQuery = await dynamo.scan(queryParams).promise();
 
-            results = dynamoQuery.Items;
+  results = dynamoQuery.Items;
     
-            console.log('queryDynamo: '+dynamoQuery.Count);   
-        } catch (error) {
-            console.log('Failure: '+error);
-            return;
-        } 
+  console.log('queryDynamo: '+dynamoQuery.Count);   
+} catch (error) {
+  console.log('Failure: '+error);
+  return;
+} 
 ```        
