@@ -32,6 +32,9 @@ Call Center 솔루션인 AWS Connect에서 모아진 CTR 데이터를 수집하�
 
 Slack으로 메시지를 보내기 위한 Token 생성 및 업데이트에 대해 설명합니다. 
 
+## [Node Reference](https://github.com/kyopark2014/technical-summary/blob/main/node-reference.md)
+
+Node.js 관련 레퍼런스를 정리합니다. 
 
 ## [유용한 명령어](https://github.com/kyopark2014/technical-summary/blob/main/useful-commands.md)
 
