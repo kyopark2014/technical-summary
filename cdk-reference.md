@@ -2,6 +2,42 @@
 
 CDK의 reference code들을 여기에 모아서 편히 보도록 합니다. 
 
+## 유용한 Samples
+
+#### [IoT Data Generator를 이용하여 다양한 Data Source를 생성하고 Timestream과 Grafana를 이용하여 Dashboard 생성하기](https://github.com/kyopark2014/iot-data-generator/blob/main/cdk-timestream/lib/cdk-timestream-stack.ts)
+
+IoT Core, IoT Rule, Timestream
+
+#### [AWS IoT Edukit 이용한 Analytic Environment](https://github.com/kyopark2014/iot-analytics-for-thermometer/blob/main/cdk-iot/lib/cdk-iot-stack.ts)
+
+IoT Core, IoT Rule, Kinesis Data Streams, Kinesis Data Firehose, S3, Lambda, Athena, API Gateway, CloudFront, SNS
+
+#### [Lambda Function URL](https://github.com/kyopark2014/lambda-function-url/blob/main/cdk-lambda/lib/cdk-lambda-stack.ts)
+
+Lambda Function URL, DynamoDB
+
+#### [Case Study: "Wait for Callback" 구현](https://github.com/kyopark2014/case-study-wait-for-callback/blob/main/cdk-callback/lib/cdk-callback-stack.ts)
+
+EventBridge, Step Functions, Lambda, SNS, API Gateway
+
+#### [AWS CloudFront의 URL Routing을 이용한 Web Client 및 API Server 구현](https://github.com/kyopark2014/aws-routable-cloudfront/blob/main/cdk-cloudfront/lib/cdk-cloudfront-stack.ts)
+
+CloudFront, API Gateway, Lambda, S3
+
+#### [API Gateway로 Query string을 포함한 RESTful API 구현하기](https://github.com/kyopark2014/apigw-rest-querystring/blob/main/cdk-restapi/lib/cdk-restapi-stack.ts)
+
+Lambda, API Gateway
+
+#### [CDK 기반의 Storytime](https://github.com/kyopark2014/cdk-storytime/blob/main/cdk-story/lib/cdk-story-stack.ts)
+
+CloudFront, API Gateway, S3, SQS, SNS, Lambda, DynamoDB
+
+
+## AWS IoT Edukit 이용한 Analytic Environment
+
+
+
+
 ## Amazon S3
 
 S3 Bucket 생성하고, bucket name, bucket arn, s3 path를 확인합니다. 
