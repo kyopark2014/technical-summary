@@ -35,6 +35,12 @@ Account Number는 아래 명령어로 확인 가능합니다.
 $ aws sts get-caller-identity --query Account --output text
 ```
 
+또는 아래 명령어도 가능합니다. 
+
+```c
+echo `aws sts get-caller-identity | jq '.Account'`
+
+
 aws-cdk-lib를 수동으로 Upgrade를 해줍니다.
 
 ```c
