@@ -39,7 +39,14 @@ $ aws sts get-caller-identity --query Account --output text
 
 ```c
 $ echo `aws sts get-caller-identity | jq '.Account'`
+```
 
+또는 
+
+```c
+export CDK_DEFAULT_ACCOUNT=`aws sts get-caller-identity | jq '.Account'`
+echo `sed -e 's/^"//' -e 's/"$//' <<<"$CDK_DEFAULT_ACCOUNT"`
+```
 
 aws-cdk-lib를 수동으로 Upgrade를 해줍니다.
 
