@@ -241,6 +241,36 @@ add the policy to the Function's role
     );
 ```
 
+## [Role](https://github.com/aws-samples/aws-iot-twinmaker-samples/blob/main/src/modules/sitewise/cdk/lib/sitewise-stack.js)
+
+```java
+        // The code that defines your stack goes here
+        const iottwinmaker_connector_role = new iam.Role(this, 'iottwinmaker_connector_role', {
+            assumedBy: new iam.CompositePrincipal(
+                new iam.ServicePrincipal('lambda.amazonaws.com'),
+                new iam.ServicePrincipal('states.amazonaws.com'),
+                new iam.ServicePrincipal('events.amazonaws.com'),
+                new iam.ServicePrincipal('iottwinmaker.amazonaws.com')
+            ),
+            managedPolicies: [
+                iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonS3FullAccess'),
+                iam.ManagedPolicy.fromAwsManagedPolicyName('CloudWatchLogsFullAccess'),
+                iam.ManagedPolicy.fromAwsManagedPolicyName('AWSStepFunctionsReadOnlyAccess'),
+                iam.ManagedPolicy.fromAwsManagedPolicyName('SecretsManagerReadWrite')
+            ]
+        });
+        const policy = new iam.ManagedPolicy(this, "IoTTwinMakerFullAccessPolicy", {
+            statements: [
+                new iam.PolicyStatement({
+                    effect: iam.Effect.ALLOW,
+                    actions: ["*"],
+                    resources: ["*"]
+                })
+            ],
+            roles: [iottwinmaker_connector_role]
+        });
+```
+
 ## Multiple principals 
 
 1) 방안1
