@@ -38,6 +38,8 @@ CloudFront, API Gateway, S3, SQS, SNS, Lambda, DynamoDB
 [aws-routable-cloudfront](https://github.com/kyopark2014/aws-routable-cloudfront/blob/main/cdk-cloudfront/lib/cdk-cloudfront-stack.ts) 을 참조합니다.
 
 ```java
+import * as s3Deploy from "aws-cdk-lib/aws-s3-deployment"
+
     const s3Bucket = new s3.Bucket(this, "s3-bucket-for-web-application",{
       bucketName: "storage-web-application",
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
