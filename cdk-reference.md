@@ -4,6 +4,10 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [TwinMaker를 위한 IoT Data Generator 생성하기](https://github.com/kyopark2014/iot-data-generator-for-twinmaker/blob/main/cdk-twinmaker/lib/cdk-twinmaker-stack.ts)
+
+IoT Core, IoT Rule, IoT SiteWise (AssetModel, Asset), IoT TwinMaker
+
 #### [IoT Data Generator를 이용하여 다양한 Data Source를 생성하고 Timestream과 Grafana를 이용하여 Dashboard 생성하기](https://github.com/kyopark2014/iot-data-generator/blob/main/cdk-timestream/lib/cdk-timestream-stack.ts)
 
 IoT Core, IoT Rule, Timestream
