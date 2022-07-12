@@ -34,6 +34,10 @@ CloudFront, API Gateway, Lambda, S3
 
 Lambda, API Gateway
 
+#### [PinPoint를 이용한 Campaign 생성](https://github.com/kyopark2014/campaign-producer-for-pinpoint/blob/main/lib/campaign-producer-for-pinpoint-stack.ts)
+
+S3, CloudFront, PinPoint, API Gateway, Labmda
+
 #### [CDK 기반의 Storytime](https://github.com/kyopark2014/cdk-storytime/blob/main/cdk-story/lib/cdk-story-stack.ts)
 
 CloudFront, API Gateway, S3, SQS, SNS, Lambda, DynamoDB
