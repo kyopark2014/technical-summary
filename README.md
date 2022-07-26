@@ -40,14 +40,17 @@ Node.js 관련 레퍼런스를 정리합니다.
 
 유용한 명령어들을 정리합니다. 
 
+
+## [Canary deployment in API Gateway](https://github.com/kyopark2014/technical-summary/blob/main/canary-api-gateway.md)
+
+API Gateway에서 Canary Deployment 하는 방법을 설명합니다.
+
+
+
 ## NLB (Network Load Balancer) Limitation
 
 [Connection idle timeout](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers.html)
 
-
-## Canary deployment in API Gateway
-
-[Canary Deployment](https://github.com/kyopark2014/technical-summary/blob/main/canary-api-gateway.md)
 
 
 For each TCP request that a client makes through a Network Load Balancer, the state of that connection is tracked. If no data is sent through the connection by either the client or target for longer than the idle timeout, the connection is closed. If a client or a target sends data after the idle timeout period elapses, it receives a TCP RST packet to indicate that the connection is no longer valid.
