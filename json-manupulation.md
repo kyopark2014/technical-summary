@@ -1,6 +1,6 @@
 # JSON 조작하는 방법
 
-## jupyter noterbook
+## ML에서 Json 활용하기
 
 
 ### Panda에서 읽은 후 Predict할 수 있는 Json 포맷으로 저장하기 
