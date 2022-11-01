@@ -46,10 +46,15 @@ Node.js 관련 레퍼런스를 정리합니다.
 API Gateway에서 Canary Deployment 하는 방법을 설명합니다.
 
 
+## ML을 위하여 Json 파일로 저장하고 읽어서 활용하기
+
+[json-manupulation.md](https://github.com/kyopark2014/technical-summary/blob/main/json-manupulation.md) Panda를 이용하여 ML을 위한 Json 파일의 저장 및 읽는 방법에 대해 설명합니다. 
+
 
 ## NLB (Network Load Balancer) Limitation
 
 [Connection idle timeout](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers.html)
+
 
 
 
