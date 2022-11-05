@@ -24,16 +24,16 @@ file:     fixed acidity  volatile acidity  citric acid  residual sugar  chloride
 
 ### Json 변수 프린트
 
-아래처럼 json 데이터를 직접 입력받아서 json.dumps()을 통해 json object로 변환합니다.  
+아래처럼 json 데이터를 직접 입력받아서 json.dumps()을 통해 json object로 변환합니다. 두번째 케이스에서 indent는 들여쓰기 탭 갯수입니다. 
 
 ```python
 jvalues = [{"fixed acidity":6.6,"volatile acidity":0.24,"citric acid":0.28,"residual sugar":1.8,"chlorides":0.028,"free sulfur dioxide":39.0,"total sulfur dioxide":132.0,"density":0.99182,"pH":3.34,"sulphates":0.46,"alcohol":11.4,"color_red":0,"color_white":1},{"fixed acidity":8.7,"volatile acidity":0.78,"citric acid":0.51,"residual sugar":1.7,"chlorides":0.415,"free sulfur dioxide":12.0,"total sulfur dioxide":66.0,"density":0.99623,"pH":3.0,"sulphates":1.17,"alcohol":9.2,"color_red":1,"color_white":0}]
 
 values = json.dumps(jvalues)
-print('values: ', values)
+print('values #1: ', values)
 
 values = json.dumps(jvalues, ensure_ascii=False, indent=3)
-print('values: ', values)
+print('values #2: ', values)
 ```
 
 이때의 결과는 아래와 같습니다. 
