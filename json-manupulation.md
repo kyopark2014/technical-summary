@@ -36,12 +36,42 @@ values = json.dumps(jvalues, ensure_ascii=False, indent=3)
 print('values: ', values)
 ```
 
-이때의 
+이때의 결과는 아래와 같습니다. 
 ```java
-'''ㄱㅕㄹㄱ
-
-values:  [{"fixed acidity": 6.6, "volatile acidity": 0.24, "citric acid": 0.28, "residual sugar": 1.8, "chlorides": 0.028, "free sulfur dioxide": 39.0, "total sulfur dioxide": 132.0, "density": 0.99182, "pH": 3.34, "sulphates": 0.46, "alcohol": 11.4, "color_red": 0, "color_white": 1}, {"fixed acidity": 8.7, "volatile acidity": 0.78, "citric acid": 0.51, "residual sugar": 1.7, "chlorides": 0.415, "free sulfur dioxide": 12.0, "total sulfur dioxide": 66.0, "density": 0.99623, "pH": 3.0, "sulphates": 1.17, "alcohol": 9.2, "color_red": 1, "color_white": 0}]
-
+values #1:  [{"fixed acidity": 6.6, "volatile acidity": 0.24, "citric acid": 0.28, "residual sugar": 1.8, "chlorides": 0.028, "free sulfur dioxide": 39.0, "total sulfur dioxide": 132.0, "density": 0.99182, "pH": 3.34, "sulphates": 0.46, "alcohol": 11.4, "color_red": 0, "color_white": 1}, {"fixed acidity": 8.7, "volatile acidity": 0.78, "citric acid": 0.51, "residual sugar": 1.7, "chlorides": 0.415, "free sulfur dioxide": 12.0, "total sulfur dioxide": 66.0, "density": 0.99623, "pH": 3.0, "sulphates": 1.17, "alcohol": 9.2, "color_red": 1, "color_white": 0}]
+values #2:  [
+   {
+      "fixed acidity": 6.6,
+      "volatile acidity": 0.24,
+      "citric acid": 0.28,
+      "residual sugar": 1.8,
+      "chlorides": 0.028,
+      "free sulfur dioxide": 39.0,
+      "total sulfur dioxide": 132.0,
+      "density": 0.99182,
+      "pH": 3.34,
+      "sulphates": 0.46,
+      "alcohol": 11.4,
+      "color_red": 0,
+      "color_white": 1
+   },
+   {
+      "fixed acidity": 8.7,
+      "volatile acidity": 0.78,
+      "citric acid": 0.51,
+      "residual sugar": 1.7,
+      "chlorides": 0.415,
+      "free sulfur dioxide": 12.0,
+      "total sulfur dioxide": 66.0,
+      "density": 0.99623,
+      "pH": 3.0,
+      "sulphates": 1.17,
+      "alcohol": 9.2,
+      "color_red": 1,
+      "color_white": 0
+   }
+]
+```
 
 ### Panda에서 읽은 후 Predict할 수 있는 Json 포맷으로 저장하기 
 
