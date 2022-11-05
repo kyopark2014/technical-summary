@@ -1,7 +1,7 @@
 # JSON 조작하는 방법
 
 
-### Json 변수 프린트
+### Json 변수 출력하기 
 
 아래처럼 json 데이터를 직접 입력받아서 json.dumps()을 통해 json object로 변환합니다. 두번째 케이스에서 indent는 들여쓰기 탭 갯수입니다. 
 
