@@ -4,6 +4,11 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [CDK로 Greengrass Component 배포하기](https://github.com/kyopark2014/iot-greengrass-with-ipc-client-v2/blob/main/cdk-ipc-client/lib/cdk-ipc-client-stack.ts)
+
+Greengrass component, S3, S3 파일 복사 
+
+
 #### [Container 방식의 Lambda에서 Inference 구촉하기](https://github.com/kyopark2014/lambda-with-ML-container/blob/main/cdk-ml-lambda/lib/cdk-ml-lambda-stack.ts)
 
 Lambda, Version, Functional URL
