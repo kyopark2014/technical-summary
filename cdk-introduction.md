@@ -84,23 +84,20 @@ A Level 3 construct represents a bunch of cloud resources that work together to 
 
 . TypeScript, JavaScript, Python, Java, Go, C#/NET
 
-![image](https://user-images.githubusercontent.com/52392004/163694512-ee73965c-8845-41dd-ad3b-fd77f2a243e2.png) (Reference #1)
+<img src="https://user-images.githubusercontent.com/52392004/163694512-ee73965c-8845-41dd-ad3b-fd77f2a243e2.png" width="600">
 
 
 ## CDK v1/v2 차이
 
-![image](https://user-images.githubusercontent.com/52392004/163694561-6ce0046d-024f-4328-9f19-ccb063faeb53.png)
+<img src="https://user-images.githubusercontent.com/52392004/163694561-6ce0046d-024f-4328-9f19-ccb063faeb53.png" width="500">
 
+<img src="https://user-images.githubusercontent.com/52392004/163694564-2fd84efe-efe9-43a8-8691-15a56c93c858.png" width="500">
 
-![image](https://user-images.githubusercontent.com/52392004/163694564-2fd84efe-efe9-43a8-8691-15a56c93c858.png)
-
-
-![image](https://user-images.githubusercontent.com/52392004/163694570-9a63faf3-ba50-433f-88bf-669fc240d5ab.png)
-
+<img src="https://user-images.githubusercontent.com/52392004/163694570-9a63faf3-ba50-433f-88bf-669fc240d5ab.png" width="500">
 
 ## CDK와 CloudFormation의 차이
 
-![image](https://user-images.githubusercontent.com/52392004/163694615-e52d00d3-fa28-47f2-ad02-c1102ca90666.png)
+<img src="https://user-images.githubusercontent.com/52392004/163694615-e52d00d3-fa28-47f2-ad02-c1102ca90666.png" width="500">
 
 
 ## CDK for Teraform
