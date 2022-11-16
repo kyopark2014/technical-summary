@@ -109,7 +109,9 @@ HashiCorp Configuration Language (HCL)을 CDK를 이용해 구현합니다.
 
 지원언어: TypeScript, Python, Java, C#, and Go (experimental).
 
-![image](https://user-images.githubusercontent.com/52392004/163694803-b729a60f-59b8-4a2b-83a4-0cc454418ce1.png)
+<img src="https://user-images.githubusercontent.com/52392004/163694803-b729a60f-59b8-4a2b-83a4-0cc454418ce1.png" width="800">
+
+
 
 [설치 및 데모](https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf)
 
