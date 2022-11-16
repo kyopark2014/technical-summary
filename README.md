@@ -51,6 +51,12 @@ API Gateway에서 Canary Deployment 하는 방법을 설명합니다.
 [json-manupulation.md](https://github.com/kyopark2014/technical-summary/blob/main/json-manupulation.md) Panda를 이용하여 ML을 위한 Json 파일의 저장 및 읽는 방법에 대해 설명합니다. 
 
 
+## Cloud9 resize
+
+[resize.md](https://github.com/kyopark2014/technical-summary/blob/main/resize.md)에서는 Cloud9에서 EBS 크기 변경에 대해 설명합니다.
+
+
+
 ## NLB (Network Load Balancer) Limitation
 
 [Connection idle timeout](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/network-load-balancers.html)
