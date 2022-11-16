@@ -130,24 +130,23 @@ AWS Serverless Application Model 및 AWS CDK는 모두 AWS 인프라를 코드�
 
 ## Reference 
 
-1) Infrastructure as Code(IaC) - Junhyok Song (AWS)
+[What is the AWS CDK?](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
 
-2) [What is the AWS CDK?](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+[AWS CDK Benefits](https://medium.com/@kargawal.abhishek/aws-cdk-deploy-managed-etl-using-aws-glue-job-1925098ec40f)
 
-3) [AWS CDK Benefits](https://medium.com/@kargawal.abhishek/aws-cdk-deploy-managed-etl-using-aws-glue-job-1925098ec40f)
+[CDK for Terraform](https://www.terraform.io/cdktf)
 
-4) [CDK for Terraform](https://www.terraform.io/cdktf)
+[CDK for Kubernetes](https://cdk8s.io/)
 
-5) [CDK for Kubernetes](https://cdk8s.io/)
+[AWS Cloud Development Kit FAQ](https://aws.amazon.com/ko/cdk/faqs/)
 
-6) [AWS Cloud Development Kit FAQ](https://aws.amazon.com/ko/cdk/faqs/)
+[[AWS Builders] AWS Cloud Development Kit을 이용한 Code 기반의 인프라 구축](https://www.youtube.com/watch?v=hOJbhfF0DYQ)
 
-7) [[AWS Builders] AWS Cloud Development Kit을 이용한 Code 기반의 인프라 구축](https://www.youtube.com/watch?v=hOJbhfF0DYQ)
+[AWS CDK Developer Preview](https://aws.amazon.com/ko/blogs/developer/aws-cdk-developer-preview/)
 
-8) [AWS CDK Developer Preview](https://aws.amazon.com/ko/blogs/developer/aws-cdk-developer-preview/)
+[AWS CDK — A Beginner’s Guide with Examples](https://enlear.academy/aws-cdk-a-beginners-guide-with-examples-424c600ac409)
 
-9) [AWS CDK — A Beginner’s Guide with Examples](https://enlear.academy/aws-cdk-a-beginners-guide-with-examples-424c600ac409)
+[AWS CDK Construct Hub](https://constructs.dev)
 
-10) [AWS CDK Construct Hub](https://constructs.dev)
-
+[CI/CD on AWS 워크샵](https://catalog.workshops.aws/cicdonaws/ko-KR)
 
