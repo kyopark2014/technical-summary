@@ -69,8 +69,8 @@ fi
 아래 명령어들로 크기를 변경합니다. 
 
 ```java
-chmod +x resize.sh
-./resize.sh 
+chmod +x resize.sh 
+./resize.sh 40
 ```
 
 ## Reference
