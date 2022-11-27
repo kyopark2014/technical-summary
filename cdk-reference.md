@@ -4,6 +4,12 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Greengrass에 container component 배포하기](https://github.com/kyopark2014/iot-with-ML-container/blob/main/cdk-ml-iot/lib/cdk-ml-iot-stack.ts)
+
+S3, S3 파일 복사, local component, container component
+
+Multi Stack
+
 #### [Greengrass Lambda Component 배포하기](https://github.com/kyopark2014/iot-greengrass-with-lambda-component/blob/main/cdk-lambda-component/lib/cdk-lambda-component-stack.ts)
 
 Lambda, Version, Lambda Function URL, Role, S3, S3 파일 복사, Greengrass Lambda Component / Local Component, Greengrass Deployment
