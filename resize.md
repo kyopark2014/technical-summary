@@ -4,8 +4,14 @@
 
 #### github에서 다운로드 하기 
 
+- wget으로 다운로드 하는 경우
 ```java
-curl https://raw.githubusercontent.com/technical-summary/resize.sh -o resize.sh
+wget https://raw.githubusercontent.com/kyopark2014/technical-summary/main/resize.sh
+```
+
+- curl로 다운로드 하는 경우 
+```java
+curl https://raw.githubusercontent.com/kyopark2014/technical-summary/main/resize.sh -o resize.sh
 ```
 
 #### 파일로 직접 생성하기 
