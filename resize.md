@@ -1,5 +1,15 @@
 # Cloud9에서 EBS 크기 변경
 
+## 파일 다운로드
+
+#### github에서 다운로드 하기 
+
+```java
+curl https://raw.githubusercontent.com/technical-summary/resize.sh -o resize.sh
+```
+
+#### 파일로 직접 생성하기 
+
 아래의 내용으로 resize.sh 파일을 생성합니다. 
 
 ```java
