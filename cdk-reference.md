@@ -19,7 +19,7 @@ Lambda, Version, Lambda Function URL, Role, S3, S3 파일 복사, Greengrass Lam
 Greengrass component, S3, S3 파일 복사 
 
 
-#### [Container 방식의 Lambda에서 Inference 구촉하기](https://github.com/kyopark2014/lambda-with-ML-container/blob/main/cdk-ml-lambda/lib/cdk-ml-lambda-stack.ts)
+#### [Container 방식의 Lambda에서 Inference 구하기](https://github.com/kyopark2014/lambda-with-ML-container/blob/main/cdk-ml-lambda/lib/cdk-ml-lambda-stack.ts)
 
 Lambda, Version, Functional URL
 
