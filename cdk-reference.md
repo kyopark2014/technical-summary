@@ -4,9 +4,9 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
-#### [Lambda API 서버 배포하기](https://github.com/kyopark2014/image-classification-api-server/blob/main/cdk-lambda-api/lib/cdk-lambda-api-stack.ts)
+#### [Lambda API 서버로 이미지를 분류하는 배포하기](https://github.com/kyopark2014/image-classification-api-server/blob/main/cdk-lambda-api/lib/cdk-lambda-api-stack.ts)
 
-lambda, API Gateway, Version, ECR
+lambda(Container), API Gateway, Version, ECR
 
 #### [Greengrass에 Component 배포하기](https://github.com/kyopark2014/image-classification-via-iot-greengrass/blob/main/cdk-greengrass/lib/cdk-greengrass-stack.ts)
 
@@ -29,7 +29,7 @@ Greengrass component, S3, S3 파일 복사
 
 #### [Container 방식의 Lambda에서 Inference 구하기](https://github.com/kyopark2014/lambda-with-ML-container/blob/main/cdk-ml-lambda/lib/cdk-ml-lambda-stack.ts)
 
-Lambda, Version, Functional URL
+Lambda(Container), Version, Functional URL
 
 #### [TwinMaker를 위한 IoT Data Generator 생성하기](https://github.com/kyopark2014/iot-data-generator-for-twinmaker/blob/main/cdk-twinmaker/lib/cdk-twinmaker-stack.ts)
 
