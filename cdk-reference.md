@@ -4,6 +4,14 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Lambda API 서버 배포하기](https://github.com/kyopark2014/image-classification-api-server/blob/main/cdk-lambda-api/lib/cdk-lambda-api-stack.ts)
+
+lambda, API Gateway, Version, ECR
+
+#### [Greengrass에 Component 배포하기](https://github.com/kyopark2014/image-classification-via-iot-greengrass/blob/main/cdk-greengrass/lib/cdk-greengrass-stack.ts)
+
+S3, Greengrass component
+
 #### [Greengrass에 container component 배포하기](https://github.com/kyopark2014/iot-with-ML-container/blob/main/cdk-ml-iot/lib/cdk-ml-iot-stack.ts)
 
 S3, S3 파일 복사, local component, container component
