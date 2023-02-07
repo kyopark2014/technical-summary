@@ -10,11 +10,11 @@ pip install \
     requests
 ```
 
-압축후 Console에서 zip으로 업로드 합니다. 압축시 lambda 소스 폴더를 포함하여 압축하여야 합니다. (node.js와 다름)
+압축후 Console에서 zip으로 업로드 합니다. 압축시 lambda 소스 폴더를 포함하여 압축하여야 합니다. 
 
 ```java
 cd lambda
-zip -r ../lambda.zip .
+zip -r lambda.zip .
 ```
 
 lambda_function.py의 내용은 아래와 같습니다. 
