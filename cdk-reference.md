@@ -4,6 +4,10 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Stable Diffusion API Server](https://github.com/kyopark2014/stable-diffusion-api-server/blob/main/cdk-stable-diffusion/README.md)
+
+Lambda(Container), Lambda(Python), API Gateway(Json), S3, CloudFront
+
 #### [Lambda API 서버로 이미지를 분류하는 배포하기](https://github.com/kyopark2014/image-classification-api-server/blob/main/cdk-lambda-api/lib/cdk-lambda-api-stack.ts)
 
 lambda(Container), API Gateway, Version, ECR
