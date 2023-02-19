@@ -75,3 +75,5 @@ EC2 instances must respond to a new request within 30 seconds in order to establ
 ## ETC
 
 [Python으로 Lambda 생성후 Request 하기](https://github.com/kyopark2014/technical-summary/blob/main/lambda-python.md)
+
+[Github 파일을 링크로 걸기](https://github.com/kyopark2014/technical-summary/blob/main/github-raw-file.md)
