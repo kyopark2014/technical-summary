@@ -4,6 +4,10 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Simple Serverless Storytime](https://github.com/kyopark2014/simple-serverless-storytime/blob/main/cdk-storytime/lib/cdk-storytime-stack.ts)
+
+Lambda(로깅 retention포함), API Gateway (파일전송을 위한 Proxy), S3, CloudFront(API Gateway와 연동), SQS, SNS
+
 #### [Stable Diffusion API Server](https://github.com/kyopark2014/stable-diffusion-api-server/blob/main/cdk-stable-diffusion/README.md)
 
 Lambda(Container), Lambda(Python), API Gateway(Json), S3, CloudFront
