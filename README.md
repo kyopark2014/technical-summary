@@ -55,6 +55,9 @@ API Gateway에서 Canary Deployment 하는 방법을 설명합니다.
 
 [resize.md](https://github.com/kyopark2014/technical-summary/blob/main/resize.md)에서는 Cloud9에서 EBS 크기 변경에 대해 설명합니다.
 
+## Plant UML
+
+[Plant UML](https://github.com/kyopark2014/technical-summary/blob/main/plantuml.md)을 이용해 Sequence Diagram을 그립니다.
 
 
 ## NLB (Network Load Balancer) Limitation
