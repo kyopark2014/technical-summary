@@ -4,6 +4,18 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Chatbot using Lex and ChatGPT](https://github.com/kyopark2014/interactive-chat-using-Lex-and-ChatGPT/blob/main/cdk-chatbot/lib/cdk-chatbot-stack.ts)
+
+S3, S3 Deploy, CloudFront, Lambda for Lex, API Gateway
+
+#### [Emotion Garden](https://github.com/kyopark2014/emotion-garden/blob/main/cdk-emotion-garden/lib/cdk-emotion-garden-stack.ts)
+
+API Gateway, Lambda, CloudFront, DynamoDB, Personalize, S3, SQS(fifo)
+
+#### [AWS Lex](https://github.com/kyopark2014/aws-lex/blob/main/cdk-lex/lib/cdk-lex-stack.ts)
+
+Lambda(for Lex), API Gateway, S3, S3 Deploy, CloudFront, 
+
 #### [Simple Serverless Storytime](https://github.com/kyopark2014/simple-serverless-storytime/blob/main/cdk-storytime/lib/cdk-storytime-stack.ts)
 
 Lambda(로깅 retention포함), API Gateway (파일전송을 위한 Proxy), S3, CloudFront(API Gateway와 연동), SQS, SNS
