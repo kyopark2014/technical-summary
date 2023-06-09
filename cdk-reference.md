@@ -4,6 +4,11 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Amazon Rekognition과 Personalize를 이용하여 감정으로 이미지 추천하기](https://github.com/kyopark2014/image-recommender-based-on-emotion/blob/main/cdk-image-recommender/lib/cdk-image-recommender-stack.ts)
+
+s3, cloudfront, Rekognition(Collection), API Gateway, SQS, Lambda(Node.js),  Lambda(Python), DynamoDB, Personalize, S3 EventSource
+
+
 #### [Chatbot using Lex and ChatGPT](https://github.com/kyopark2014/interactive-chat-using-Lex-and-ChatGPT/blob/main/cdk-chatbot/lib/cdk-chatbot-stack.ts)
 
 S3, S3 Deploy, CloudFront, Lambda for Lex, API Gateway
