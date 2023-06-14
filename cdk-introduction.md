@@ -99,6 +99,18 @@ A Level 3 construct represents a bunch of cloud resources that work together to 
 
 <img src="https://user-images.githubusercontent.com/52392004/163694615-e52d00d3-fa28-47f2-ad02-c1102ca90666.png" width="500">
 
+## 좋은 Reference
+
+[AWS Serverless using AWS CDK](https://github.com/aws-samples/aws-serverless-using-aws-cdk)
+
+[AWS ECS DevOps using AWS CDK](https://github.com/aws-samples/aws-ecs-devops-using-aws-cdk)
+
+[Amazon SageMaker Model Serving using AWS CDK](https://github.com/aws-samples/amazon-sagemaker-model-serving-using-aws-cdk)
+
+[Amazon SageMaker와 CDK를 활용한 딥러닝 모델 서비스 현대화 기법](https://www.youtube.com/watch?v=kn2DBjZW5W8)
+
+[AWS Fargate와 Amazon ECS를 활용한 CI/CD 모범사례](https://www.youtube.com/watch?v=ZRPdVY5lFBM)
+
 
 ## CDK for Teraform
 
