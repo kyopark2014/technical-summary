@@ -4,6 +4,10 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Falcon FM을 이용한 Chatbot 만들기](https://github.com/kyopark2014/chatbot-based-on-Falcon-FM)
+
+S3, CloudFront, Lambda(Python), API Gateway, CloudFront, S3 EventSource
+
 #### [Amazon Rekognition과 Personalize를 이용하여 감정으로 이미지 추천하기](https://github.com/kyopark2014/image-recommender-based-on-emotion/blob/main/cdk-image-recommender/lib/cdk-image-recommender-stack.ts)
 
 S3, CloudFront, Rekognition(Collection), API Gateway, SQS, Lambda(Node.js),  Lambda(Python), DynamoDB, Personalize, S3 EventSource
