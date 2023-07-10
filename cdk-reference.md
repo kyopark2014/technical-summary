@@ -4,7 +4,7 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
-#### [Falcon FM을 이용한 Chatbot 만들기](https://github.com/kyopark2014/chatbot-based-on-Falcon-FM)
+#### [Falcon FM을 이용한 Chatbot 만들기](https://github.com/kyopark2014/chatbot-based-on-Falcon-FM/blob/main/cdk-chatbot-falcon/lib/cdk-chatbot-falcon-stack.ts)
 
 S3, CloudFront, Lambda(Python), API Gateway, CloudFront, S3 EventSource
 
