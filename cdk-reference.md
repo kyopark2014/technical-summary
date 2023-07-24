@@ -4,6 +4,10 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Vector Store를 이용한 Question/Answering Chatbot 만들기](https://github.com/kyopark2014/question-answering-chatbot-using-vector-store-based-on-LLM/blob/main/cdk-qa-with-rag/lib/cdk-qa-with-rag-stack.ts)
+
+S3, S3 deploy, DynamoDB, CloudFront, Lambda(Python), Lambda(Node.js)
+
 #### [Falcon FM을 이용한 Chatbot 만들기](https://github.com/kyopark2014/chatbot-based-on-Falcon-FM/blob/main/cdk-chatbot-falcon/lib/cdk-chatbot-falcon-stack.ts)
 
 S3, CloudFront, Lambda(Python), API Gateway, CloudFront, S3 EventSource
