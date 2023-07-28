@@ -4,6 +4,10 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [Amazon S3 Presigned Url을 이용하여 파일 업로드하기](https://github.com/kyopark2014/s3-presigned-url/blob/main/cdk-s3-presigned-url/lib/cdk-s3-presigned-url-stack.ts)
+
+S3 (CORS 포함), S3 deploy, Lambda(Node.js), CloudFront
+
 #### [Vector Store를 이용한 Question/Answering Chatbot 만들기](https://github.com/kyopark2014/question-answering-chatbot-using-vector-store-based-on-LLM/blob/main/cdk-qa-with-rag/lib/cdk-qa-with-rag-stack.ts)
 
 S3, S3 deploy, DynamoDB, CloudFront, Lambda(Python), Lambda(Node.js)
