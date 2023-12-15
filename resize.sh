@@ -60,3 +60,5 @@ else
     sudo resize2fs /dev/nvme0n1p1
   fi
 fi
+
+sudo xfs_growfs /dev/nvme0n1p1
