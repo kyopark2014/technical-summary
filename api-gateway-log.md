@@ -19,3 +19,24 @@ https://console.aws.amazon.com/iamv2/home#/roles
 
 ![image](https://github.com/kyopark2014/technical-summary/assets/52392004/666b8411-0b99-44c6-8a5a-f4b1ffb87b9e)
 
+생성된 API Gateway Role의 ARN은 아래와 같습니다.
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/f0ef9e8b-144f-4c96-a102-cf35c9fe9778)
+
+
+5. [API Gateway console - Settings](https://ap-northeast-2.console.aws.amazon.com/apigateway/main/settings?api=unselected&region=ap-northeast-2)에서 [Edit]를 선택한 후에 아래와 같이 생성한 IAM Role의 ARN을 [CloudWatch log role ARN]에 입력합니다.
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/fed44470-8209-4c54-b2de-b0018bbaa257)
+
+6. [API Gateway Console](https://ap-northeast-2.console.aws.amazon.com/apigateway/main/apis?region=ap-northeast-2)에서 아래와 같이 아래와 같이 로그를 수집할 API Gateway를 선택합니다. 
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/ed9c5583-d0ef-45de-9939-63b3f836ac4c)
+
+7. 아래와 같이 [Stages]를 선택하고 오른쪽 [Logs and tracing]에서 [Edit]를 선택합니다. 
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/71ed8420-5c69-4954-936e-dfa2704fa218)
+
+8. [CloudWatch logs]에서 "Full request and response logs"를 선택합니다. 이후 [Save changes]를 선택합니다.
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/d2689bd3-72c2-4c93-a66a-f5b7d48d2724)
+   
