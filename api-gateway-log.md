@@ -52,3 +52,8 @@ https://console.aws.amazon.com/iamv2/home#/roles
 
 ![image](https://github.com/kyopark2014/technical-summary/assets/52392004/6ee5f27f-01a0-4c66-b014-7bdbacc7aa55)
 
+12. metric중에 '/provisioning'에 대한 호출수를 count하고 싶다면 아래와 같이 선택합니다.
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/16d1f01b-c12d-42f0-ac1d-ac628486ef92)
+
+    
