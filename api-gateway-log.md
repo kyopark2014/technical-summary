@@ -39,3 +39,16 @@ https://console.aws.amazon.com/iamv2/home#/roles
 8. [CloudWatch logs]에서 아래와 같이 "Detailed metrics"을 선택하고, [Save changes]를 선택합니다.
 
 ![image](https://github.com/kyopark2014/technical-summary/assets/52392004/e32edeae-ade2-44c2-acc3-6f6c3b28403f)
+
+9. CloudWatch의 [All metrics] - [Browse]에서 로그에 "API Gateway"를 선택합니다.
+    
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/f6cf9dc5-804e-4ff2-93df-c0d14c467e3a)
+
+10. 이후 아래와 같이 "By Method"를 선택합니다.
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/ec40cef0-f24f-4dfe-871d-b8dca6dd9c22)
+
+11. 아래와 같이 리소스 별로 metric을 확인할 수 있습니다.
+
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/6ee5f27f-01a0-4c66-b014-7bdbacc7aa55)
+
