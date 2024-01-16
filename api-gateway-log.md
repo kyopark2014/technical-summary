@@ -36,7 +36,6 @@ https://console.aws.amazon.com/iamv2/home#/roles
 
 ![image](https://github.com/kyopark2014/technical-summary/assets/52392004/71ed8420-5c69-4954-936e-dfa2704fa218)
 
-8. [CloudWatch logs]에서 "Full request and response logs"를 선택합니다. 이후 [Save changes]를 선택합니다.
+8. [CloudWatch logs]에서 아래와 같이 "Detailed metrics"을 선택하고, [Save changes]를 선택합니다.
 
-![image](https://github.com/kyopark2014/technical-summary/assets/52392004/d2689bd3-72c2-4c93-a66a-f5b7d48d2724)
-   
+![image](https://github.com/kyopark2014/technical-summary/assets/52392004/e32edeae-ade2-44c2-acc3-6f6c3b28403f)
