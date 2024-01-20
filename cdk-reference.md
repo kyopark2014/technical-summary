@@ -4,6 +4,10 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
+#### [S3의 Object 부하를 제어하는 Simple Load Manager](https://github.com/kyopark2014/s3-event-load-manager/blob/main/cdk-load-manager/lib/cdk-load-manager-stack.ts)
+
+S3, S3 Event, S3 event source, SQS(fifo), Lambda(python), Event Bridge
+
 #### [Amazon S3 Presigned Url을 이용하여 파일 업로드하기](https://github.com/kyopark2014/s3-presigned-url/blob/main/cdk-s3-presigned-url/lib/cdk-s3-presigned-url-stack.ts)
 
 S3 (CORS 포함), S3 deploy, Lambda(Node.js), CloudFront
