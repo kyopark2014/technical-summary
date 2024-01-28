@@ -4,7 +4,7 @@ CDK의 reference code들을 여기에 모아서 편히 보도록 합니다.
 
 ## 유용한 Samples
 
-### [RAG를 이용한 Code Generation](https://github.com/kyopark2014/rag-code-generation/blob/main/cdk-rag-code-generation/README.md)
+#### [RAG를 이용한 Code Generation](https://github.com/kyopark2014/rag-code-generation/blob/main/cdk-rag-code-generation/README.md)
 
 S3, CloudFront, DynamoDB, Lambda(Python, Docker), OpenSearch, API Gateway(Rest), API Gateway(WebSocket), S3 Event
 
