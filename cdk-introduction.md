@@ -54,6 +54,12 @@ aws-cdk-lib를 수동으로 Upgrade를 해줍니다.
 npm install -g aws-cdk-lib
 ```
 
+### TypeScript & CDK 설치
+
+```text
+sudo npm -g install typescript
+sudo npm install -g aws-cdk 
+```
 
 ### AWS CDK Benefits
 
