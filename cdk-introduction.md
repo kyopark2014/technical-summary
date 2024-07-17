@@ -61,6 +61,12 @@ sudo npm -g install typescript
 sudo npm install -g aws-cdk 
 ```
 
+전체 설치 명령어
+
+```text
+cdk deploy --require-approval never --all
+```
+
 ### AWS CDK Benefits
 
 1) Easier cloud onboarding — AWS CDK accelerates your onboarding to AWS because there are few new things to learn. CDK enables you to use your existing skills and tools, and apply those to the task of building cloud infrastructure. It also provides high-level components that preconfigure cloud resources with proven defaults, helping you build on AWS without needing to be an expert.
